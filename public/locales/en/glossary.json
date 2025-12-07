@@ -1,0 +1,10 @@
+{
+    "login": "Log in",
+    "language": "Language",
+    "theme": {
+        "title": "Theme",
+        "light": "Light mode",
+        "dark": "Dark mode",
+        "system": "System theme"
+    }
+}

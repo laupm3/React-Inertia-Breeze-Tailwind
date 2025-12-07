@@ -1,0 +1,12 @@
+div.relative:has(div.adminPanelTable) {
+    border: none !important;
+}
+
+tr:has(div.adminPanelTable) {
+    border: none !important;
+}
+
+td:has(div.adminPanelTable) {
+    @apply !bg-custom-white dark:!bg-custom-blackLight;
+    border: none !important;
+}

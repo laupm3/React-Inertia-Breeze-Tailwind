@@ -1,0 +1,21 @@
+{
+    "events": {
+        "createEvent": "Crear esdeveniment",
+        "department": "Departament",
+        "description": "Descripció",
+        "enterprise": "Empresa",
+        "group": "Grup",
+        "hour": "Hora",
+        "newEvent": "Nou esdeveniment",
+        "noUpcomingEvents": "No hi ha esdeveniments propers",
+        "pastEvents": "Esdeveniments passats",
+        "pleaseSelectEventType": "Si us plau, selecciona un tipus d'esdeveniment",
+        "private": "Privat",
+        "rrhh": "RRHH",
+        "searchUsers": "Cercar usuaris",
+        "selected": "Seleccionats",
+        "share": "Compartir",
+        "title": "Títol",
+        "upcomingEvents": "Esdeveniments propers"
+    }
+}

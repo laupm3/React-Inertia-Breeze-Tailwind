@@ -1,0 +1,18 @@
+{
+    "email": {
+        "title": "Posta Elektronikoa",
+        "placeholder": "Idatzi zure posta elektronikoa",
+        "required": "Posta elektronikoa derrigorrezkoa da",
+        "min": "Posta elektronikoak gutxienez 6 karaktere izan behar ditu",
+        "max": "Posta elektronikoak ezin du 50 karaktere baino gehiago izan",
+        "invalid": "Posta elektronikoa baliozkoa izan behar da"
+    },
+    "password": {
+        "title": "Pasahitza",
+        "placeholder": "Idatzi zure pasahitza",
+        "required": "Pasahitza derrigorrezkoa da",
+        "min": "Pasahitzak gutxienez 8 karaktere izan behar ditu",
+        "max": "Pasahitzak ezin du 50 karaktere baino gehiago izan",
+        "invalid": "Pasahitzak gutxienez letra bat eta zenbaki bat izan behar ditu"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "VacationRequest.startDate": "Start Date",
+    "VacationRequest.endDate": "End Date",
+    "VacationRequest.partialDay": "Partial Day",
+    "VacationRequest.confirmRequest": "Confirm Request",
+    "VacationRequest.requestedVacations": "Requested Vacations",
+    "VacationRequest.aprovedByBoss": "Approved by Leader",
+    "VacationRequest.aprovedByHR": "Approved by HR",
+    "VacationRequest.aprovedEnjoys": "Approved, enjoy your vacation!",
+    "VacationRequest.viewHistory": "View Vacation History",
+    "VacationRequest.pendingApproval": "Pending Approval",
+    "VacationRequest.vacationsNonSolicited": "Non-Solicited Vacations"
+}

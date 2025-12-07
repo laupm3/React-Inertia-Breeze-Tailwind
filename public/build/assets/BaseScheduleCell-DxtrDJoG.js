@@ -1,0 +1,1 @@
+import{j as l}from"./app-fwyInB3c.js";function c({children:e,className:a}){return l.jsx("div",{className:`flex flex-col gap-1 max-w-[calc(12rem+10px)] min-w-[calc(12rem+10px)] ${a}`,children:e})}export{c as default};

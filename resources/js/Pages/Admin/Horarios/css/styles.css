@@ -1,0 +1,22 @@
+td:has(div.totalHorasSemanales) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(246 246 246 / var(--tw-bg-opacity));
+    /* Modo claro - bg-custom-gray-default */
+}
+
+.dark td:has(div.totalHorasSemanales) {
+    --tw-bg-opacity: 1;
+    /* background-color: rgb(31 41 55 / var(--tw-bg-opacity)); */
+    background-color: #2C3034;
+    /* Modo oscuro - bg-custom-blackSemi */
+}
+
+/* Resto del código se mantiene igual */
+.dark\:bg-custom-blackSemi:is(.dark *) {
+    --tw-bg-opacity: 1;
+    /* background-color: rgb(31 41 55 / var(--tw-bg-opacity)); */
+}
+
+td:has(div.appHorario) {
+    padding: 0.4rem !important;
+}

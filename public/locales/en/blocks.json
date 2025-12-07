@@ -1,0 +1,21 @@
+{
+    "events": {
+        "createEvent": "Create Event",
+        "department": "Department",
+        "description": "Description",
+        "enterprise": "Enterprise",
+        "group": "Group",
+        "hour": "Hour",
+        "newEvent": "New Event",
+        "noUpcomingEvents": "No upcoming events",
+        "pastEvents": "Past Events",
+        "pleaseSelectEventType": "Please select an event type",
+        "private": "Private",
+        "rrhh": "HR",
+        "searchUsers": "Search Users",
+        "selected": "Selected",
+        "share": "Share",
+        "title": "Title",
+        "upcomingEvents": "Upcoming Events"
+    }
+}

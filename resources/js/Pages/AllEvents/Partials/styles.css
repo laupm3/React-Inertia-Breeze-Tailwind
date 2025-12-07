@@ -1,0 +1,167 @@
+/* //* Schedule ------------> */
+.fc-button,
+.fc-button:focus,
+.fc-button:hover {
+    color: var(--custom-text) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.fc-button-active {
+    background-color: var(--custom-gray) !important;
+    border: transparent !important;
+}
+.fc-scrollgrid,
+.fc-scrollgrid th {
+    border: none !important;
+}
+
+.dark .fc-scrollgrid tr {
+    border-bottom-color: #2c3034 !important; /* Color de línea más claro para modo oscuro */
+}
+
+.dark .fc-scrollgrid td {
+    border-color: #2c3034 !important; /* Color de línea más claro para modo oscuro */
+}
+
+.dark .fc-scrollgrid-sync-table {
+    border-left-color: #2c3034 !important; /* Color de línea más claro para modo oscuro */
+}
+
+.fc-timeGridWeek-view {
+    .fc-scrollgrid tr {
+        border-bottom: solid 1px var(--custom-gray) !important;
+    }
+    .fc-scrollgrid td {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: none !important;
+    }
+    .fc-timegrid-slot-label-frame {
+        border: none !important;
+        font-weight: 500;
+    }
+
+    .fc-timegrid-event-harness {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-top: 1px !important;
+    }
+
+    .fc-timegrid-event {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .fc-event {
+        min-height: 24px !important;
+    }
+}
+
+.fc-scroller {
+    /* Ocultar scrollbar en Chrome, Safari y Edge */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Ocultar scrollbar en Firefox */
+    scrollbar-width: none;
+
+    /* Asegurar que el scroll siga funcionando en IE y Edge */
+    -ms-overflow-style: none;
+}
+.fc-col-header {
+    background-color: var(--custom-gray);
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+.fc-scrollgrid-sync-inner {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+.fc-day-today {
+    @apply !bg-custom-gray-default dark:!bg-custom-gray-darker/50;
+}
+.fc-day-today.fc-col-header-cell {
+    @apply !bg-custom-gray-light dark:!bg-custom-blackSemi;
+}
+.fc .fc-scrollgrid-section-sticky > * {
+    background-color: transparent !important;
+}
+
+/* cuadro de evento */
+.fc-event {
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.fc-scrollgrid-sync-table {
+    border-left: solid 1px !important;
+}
+.fc-daygrid-day-top {
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+.fc-today-button {
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+.fc-scrollgrid {
+    @media (max-width: 767px) {
+        min-width: 800px !important;
+        min-height: 400px !important;
+    }
+}
+
+/* Estilos para el botón de leyenda personalizado */
+.fc-leyendaButton-button {
+    border: 1px solid #ccc !important; /* Añade un borde */
+    border-radius: 100px !important; /* Bordes redondeados */
+    padding: 5px 10px !important; /* Espaciado interno */
+    background-color: #f5f5f5 !important; /* Color de fondo */
+    color: #333 !important; /* Color del texto */
+}
+
+.fc-leyendaButton-button:hover {
+    background-color: #e0e0e0 !important; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el modo oscuro del botón de leyenda */
+.dark .fc-leyendaButton-button {
+    background-color: #2c3034 !important; /* Color de fondo oscuro */
+    color: #f5f5f5 !important; /* Color del texto claro */
+    border-color: #2c3034 !important; /* Color del borde oscuro */
+}
+
+.dark .fc-leyendaButton-button:hover {
+    background-color: #5a5a5a !important; /* Color de fondo oscuro al pasar el ratón */
+}
+
+/* Estilos para la tabla de formato movil */
+.fc-listWeek-view {
+    border: none !important;
+    position: relative !important;
+
+    tr,
+    td,
+    th {
+        border: none !important;
+    }
+    .fc-list-event-time {
+        @apply bg-custom-gray-default dark:bg-custom-blackSemi;
+    }
+}
+
+/* Estilos para el modo de dia del calendario */
+.fc-timeGridDay-view {
+    .fc-day-today.fc-col-header-cell {
+        @apply !bg-custom-gray-default dark:!bg-custom-gray-darker;
+    }
+    td.fc-timegrid-slot {
+        @apply !bg-custom-white dark:!bg-custom-blackSemi/50;
+    }
+}

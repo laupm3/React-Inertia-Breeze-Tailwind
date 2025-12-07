@@ -1,0 +1,1102 @@
+[
+    {
+        "name": "administration",
+        "description": "Módulo nivel administrador, permite visualizar y gestionar los flujos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view admin dashboard",
+                "description": "Permite visualizar el dashboard de administrador de la aplicación."
+            },
+            {
+                "name": "view users panel",
+                "description": "Permite visualizar el panel de administración de los usuarios."
+            },
+            {
+                "name": "view teams panel",
+                "description": "Permite visualizar el panel de administración de los equipos."
+            },
+            {
+                "name": "view folders advance layout",
+                "description": "Visualización de la página principal de documentos, home avanzada para usuarios con más permisos. Ej: administradores y recursos humanos."
+            },
+            {
+                "name": "view employees panel",
+                "description": "Permite visualizar el panel de administración de empleados."
+            }
+        ]
+    },
+    {
+        "name": "calendar",
+        "description": "Calendario de eventos de los usuarios.",
+        "permissions": [
+            {
+                "name": "view calendar",
+                "description": "Permite visualizar el calendario de eventos."
+            },
+            {
+                "name": "create calendar event",
+                "description": "Permite crear eventos en el calendario."
+            },
+            {
+                "name": "edit calendar event",
+                "description": "Permite editar eventos en el calendario."
+            },
+            {
+                "name": "delete calendar event",
+                "description": "Permite eliminar eventos en el calendario."
+            }
+        ]
+    },
+    {
+        "name": "folders",
+        "description": "Documentación de los usuarios, permite subir y gestionar documentos.",
+        "permissions": [
+            {
+                "name": "view folders standard layout",
+                "description": "Visualización de la página principal de documentos, home básica para la mayoría de usuarios."
+            },
+            {
+                "name": "view folders trash bin",
+                "description": "Visualización de la papelera de reciclaje."
+            },
+            {
+                "name": "view shared folders",
+                "description": "Visualización de los documentos compartidos."
+            }
+        ]
+    },
+    {
+        "name": "files",
+        "description": "Módulo de archivos, permite subir y gestionar archivos.",
+        "permissions": [
+            {
+                "name": "view files",
+                "description": "Permite visualizar los archivos."
+            },
+            {
+                "name": "create files",
+                "description": "Permite subir archivos."
+            },
+            {
+                "name": "edit files",
+                "description": "Permite editar archivos."
+            },
+            {
+                "name": "delete files",
+                "description": "Permite eliminar archivos."
+            },
+            {
+                "name": "download files",
+                "description": "Permite descargar archivos."
+            },
+            {
+                "name": "share files",
+                "description": "Permite compartir archivos."
+            },
+            {
+                "name": "hide files",
+                "description": "Permite ocultar archivos."
+            }
+        ]
+    },
+    {
+        "name": "files access levels",
+        "description": "Módulo de control de acceso a los archivos, permite gestionar el rango de visibilidad de los archivos.",
+        "permissions": [
+            {
+                "name": "critical value files",
+                "description": "Permite acceder a los archivos críticos."
+            },
+            {
+                "name": "high value files",
+                "description": "Permite acceder a los archivos de alto valor."
+            },
+            {
+                "name": "medium value files",
+                "description": "Permite acceder a los archivos de valor medio."
+            },
+            {
+                "name": "low value files",
+                "description": "Permite acceder a los archivos de bajo valor."
+            }
+        ]
+    },
+    {
+        "name": "file extensions",
+        "description": "Módulo de extensiones de archivos, permite gestionar las extensiones de los archivos.",
+        "permissions": [
+            {
+                "name": "view file extensions",
+                "description": "Permite visualizar las extensiones de los archivos."
+            },
+            {
+                "name": "create file extensions",
+                "description": "Permite crear extensiones de archivos."
+            },
+            {
+                "name": "edit file extensions",
+                "description": "Permite editar extensiones de archivos."
+            },
+            {
+                "name": "delete file extensions",
+                "description": "Permite eliminar extensiones de archivos."
+            }
+        ]
+    },
+    {
+        "name": "users",
+        "description": "Módulo de usuarios, permite gestionar los usuarios de la aplicación.",
+        "permissions": [
+            {
+                "name": "view users",
+                "description": "Permite visualizar los usuarios."
+            },
+            {
+                "name": "create users",
+                "description": "Permite crear usuarios."
+            },
+            {
+                "name": "edit users",
+                "description": "Permite editar usuarios."
+            },
+            {
+                "name": "delete users",
+                "description": "Permite eliminar usuarios."
+            },
+            {
+                "name": "view user profile",
+                "description": "Permite visualizar el perfil de usuario."
+            },
+            {
+                "name": "edit user profile",
+                "description": "Permite editar el perfil de usuario."
+            },
+            {
+                "name": "add profile picture",
+                "description": "Permite añadir una foto de perfil."
+            },
+            {
+                "name": "remove profile picture",
+                "description": "Permite eliminar la foto de perfil."
+            },
+            {
+                "name": "view user files",
+                "description": "Permite visualizar los archivos del usuario."
+            },
+            {
+                "name": "view user sessions",
+                "description": "Permite visualizar las sesiones del usuario."
+            },
+            {
+                "name": "activate 2FA for user",
+                "description": "Permite activar la autenticación de dos factores para el usuario."
+            },
+            {
+                "name": "deactivate 2FA for user",
+                "description": "Permite desactivar la autenticación de dos factores para el usuario."
+            }
+        ]
+    },
+    {
+        "name": "teams",
+        "description": "Módulo de equipos, permite gestionar los equipos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view teams",
+                "description": "Permite visualizar los equipos."
+            },
+            {
+                "name": "create teams",
+                "description": "Permite crear equipos."
+            },
+            {
+                "name": "edit teams",
+                "description": "Permite editar equipos."
+            },
+            {
+                "name": "delete teams",
+                "description": "Permite eliminar equipos."
+            },
+            {
+                "name": "add users to teams",
+                "description": "Permite añadir usuarios a los equipos."
+            },
+            {
+                "name": "invitate users to teams",
+                "description": "Permite invitar usuarios a los equipos."
+            },
+            {
+                "name": "remove users from teams",
+                "description": "Permite eliminar usuarios de los equipos."
+            },
+            {
+                "name": "view teams where user is member",
+                "description": "Permite ver los equipos donde el usuario es miembro."
+            },
+            {
+                "name": "view team members",
+                "description": "Permite visualizar los miembros de los equipos."
+            },
+            {
+                "name": "add users to own team",
+                "description": "Permite añadir usuarios a su propio equipo."
+            },
+            {
+                "name": "invitate users to own team",
+                "description": "Permite invitar usuarios a su propio equipo."
+            },
+            {
+                "name": "remove users from own team",
+                "description": "Permite eliminar usuarios de su propio equipo."
+            }
+        ]
+    },
+    {
+        "name": "employees",
+        "description": "Módulo de empleados, permite gestionar los empleados de la aplicación.",
+        "permissions": [
+            {
+                "name": "view employees",
+                "description": "Permite visualizar los empleados."
+            },
+            {
+                "name": "create employees",
+                "description": "Permite crear empleados."
+            },
+            {
+                "name": "edit employees",
+                "description": "Permite editar empleados."
+            },
+            {
+                "name": "delete employees",
+                "description": "Permite eliminar empleados."
+            },
+            {
+                "name": "view employee's types",
+                "description": "Permite visualizar la sección de tipos de empleados."
+            },
+            {
+                "name": "create employee's types",
+                "description": "Permite crear tipos de empleados."
+            },
+            {
+                "name": "edit employee's types",
+                "description": "Permite editar los tipos de empleados."
+            },
+            {
+                "name": "delete employee's types",
+                "description": "Permite eliminar los tipos de empleados."
+            },
+            {
+                "name": "view employee's status",
+                "description": "Permite visualizar la sección de estados de los empleados."
+            },
+            {
+                "name": "create employee's status",
+                "description": "Permite crear estados de los empleados."
+            },
+            {
+                "name": "edit employee's status",
+                "description": "Permite editar los estados de los empleados."
+            },
+            {
+                "name": "delete employee's status",
+                "description": "Permite eliminar los estados de los empleados."
+            },
+            {
+                "name": "view employee's type documents",
+                "description": "Permite visualizar la sección de tipo de documentos de los empleados."
+            },
+            {
+                "name": "create employee's type documents",
+                "description": "Permite crear nuevos tipos de documentos de los empleados."
+            },
+            {
+                "name": "edit employee's type documents",
+                "description": "Permite editar los tipos de documentos de los empleados."
+            },
+            {
+                "name": "delete employee's type documents",
+                "description": "Permite eliminar los tipos de documentos de los empleados."
+            },
+            {
+                "name": "view employee's gender",
+                "description": "Permite visualizar la sección de géneros de los empleados."
+            },
+            {
+                "name": "create employee's gender",
+                "description": "Permite crear nuevos tipos de género de los empleados."
+            },
+            {
+                "name": "edit employee's gender",
+                "description": "Permite editar los tipos de género de los empleados."
+            },
+            {
+                "name": "delete employee's gender",
+                "description": "Permite eliminar los tipos de género de los empleados."
+            }
+        ]
+    },
+    {
+        "name": "addresses",
+        "description": "Módulo de direcciones, permite gestionar las direcciones de los diferentes Models.",
+        "permissions": [
+            {
+                "name": "view addresses",
+                "description": "Permite visualizar el panel de direcciones."
+            },
+            {
+                "name": "create addresses",
+                "description": "Permite crear direcciones."
+            },
+            {
+                "name": "edit addresses",
+                "description": "Permite editar direcciones."
+            },
+            {
+                "name": "delete addresses",
+                "description": "Permite eliminar direcciones."
+            }
+        ]
+    },
+    {
+        "name": "municipios",
+        "description": "Módulo de municipios, permite gestionar los municipios de la aplicación.",
+        "permissions": [
+            {
+                "name": "view municipios",
+                "description": "Permite visualizar los municipios."
+            },
+            {
+                "name": "create municipios",
+                "description": "Permite crear municipios."
+            },
+            {
+                "name": "edit municipios",
+                "description": "Permite editar municipios."
+            },
+            {
+                "name": "delete municipios",
+                "description": "Permite eliminar municipios."
+            }
+        ]
+    },
+    {
+        "name": "provincias",
+        "description": "Módulo de provincias, permite gestionar las provincias de la aplicación.",
+        "permissions": [
+            {
+                "name": "view provincias",
+                "description": "Permite visualizar las provincias."
+            },
+            {
+                "name": "create provincias",
+                "description": "Permite crear provincias."
+            },
+            {
+                "name": "edit provincias",
+                "description": "Permite editar provincias."
+            },
+            {
+                "name": "delete provincias",
+                "description": "Permite eliminar provincias."
+            }
+        ]
+    },
+    {
+        "name": "roles",
+        "description": "Módulo de roles, permite gestionar los roles de la aplicación.",
+        "permissions": [
+            {
+                "name": "view roles",
+                "description": "Permite visualizar los roles."
+            },
+            {
+                "name": "create roles",
+                "description": "Permite crear roles."
+            },
+            {
+                "name": "edit roles",
+                "description": "Permite editar roles."
+            },
+            {
+                "name": "delete roles",
+                "description": "Permite eliminar roles."
+            }
+        ]
+    },
+    {
+        "name": "permissions",
+        "description": "Módulo de permisos, permite gestionar los permisos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view permissions",
+                "description": "Permite visualizar los permisos."
+            },
+            {
+                "name": "create permissions",
+                "description": "Permite crear permisos."
+            },
+            {
+                "name": "edit permissions",
+                "description": "Permite editar permisos."
+            },
+            {
+                "name": "delete permissions",
+                "description": "Permite eliminar permisos."
+            },
+            {
+                "name": "view permissions where role is assigned",
+                "description": "Permite visualizar los permisos asignados a los roles."
+            },
+            {
+                "name": "assign permissions to roles",
+                "description": "Permite asignar permisos a los roles."
+            },
+            {
+                "name": "remove permissions from roles",
+                "description": "Permite eliminar permisos de los roles."
+            },
+            {
+                "name": "view permissions where user is assigned",
+                "description": "Permite visualizar los permisos asignados a los usuarios."
+            },
+            {
+                "name": "assign permissions to users",
+                "description": "Permite asignar permisos a los usuarios."
+            },
+            {
+                "name": "remove permissions from users",
+                "description": "Permite eliminar permisos de los usuarios."
+            }
+        ]
+    },
+    {
+        "name": "modules",
+        "description": "Módulo de módulos, permite gestionar los módulos de la aplicación relacionado con los permisos, agrupación de permisos.",
+        "permissions": [
+            {
+                "name": "view modules",
+                "description": "Permite visualizar los módulos."
+            },
+            {
+                "name": "create modules",
+                "description": "Permite crear módulos."
+            },
+            {
+                "name": "edit modules",
+                "description": "Permite editar módulos."
+            },
+            {
+                "name": "delete modules",
+                "description": "Permite eliminar módulos."
+            }
+        ]
+    },
+    {
+        "name": "links",
+        "description": "Módulo de enlaces, funcionalidad clave del sidebar, permite gestionar los enlaces de la aplicación.",
+        "permissions": [
+            {
+                "name": "view links",
+                "description": "Permite visualizar los enlaces."
+            },
+            {
+                "name": "create links",
+                "description": "Permite crear enlaces."
+            },
+            {
+                "name": "edit links",
+                "description": "Permite editar enlaces."
+            },
+            {
+                "name": "delete links",
+                "description": "Permite eliminar enlaces."
+            }
+        ]
+    },
+    {
+        "name": "festivos",
+        "description": "Módulo de festivos, permite gestionar los festivos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view festivos",
+                "description": "Permite visualizar los festivos."
+            },
+            {
+                "name": "create festivos",
+                "description": "Permite crear festivos."
+            },
+            {
+                "name": "edit festivos",
+                "description": "Permite editar festivos."
+            },
+            {
+                "name": "delete festivos",
+                "description": "Permite eliminar festivos."
+            }
+        ]
+    },
+    {
+        "name": "companies",
+        "description": "Módulo de empresas, permite gestionar las empresas de la aplicación.",
+        "permissions": [
+            {
+                "name": "view companies",
+                "description": "Permite visualizar las empresas."
+            },
+            {
+                "name": "create companies",
+                "description": "Permite crear empresas."
+            },
+            {
+                "name": "edit companies",
+                "description": "Permite editar empresas."
+            },
+            {
+                "name": "delete companies",
+                "description": "Permite eliminar empresas."
+            }
+        ]
+    },
+    {
+        "name": "centers",
+        "description": "Módulo de centros, permite gestionar los centros de la aplicación.",
+        "permissions": [
+            {
+                "name": "view centers",
+                "description": "Permite visualizar los centros."
+            },
+            {
+                "name": "create centers",
+                "description": "Permite crear centros."
+            },
+            {
+                "name": "edit centers",
+                "description": "Permite editar centros."
+            },
+            {
+                "name": "delete centers",
+                "description": "Permite eliminar centros."
+            },
+            {
+                "name": "view center status",
+                "description": "Permite visualizar los tipos de centros."
+            },
+            {
+                "name": "create center status",
+                "description": "Permite crear tipos de centros."
+            },
+            {
+                "name": "edit center status",
+                "description": "Permite editar tipos de centros."
+            },
+            {
+                "name": "delete center status",
+                "description": "Permite eliminar tipos de centros."
+            }
+        ]
+    },
+    {
+        "name": "departments",
+        "description": "Módulo de departamentos, permite gestionar los departamentos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view departments",
+                "description": "Permite visualizar los departamentos."
+            },
+            {
+                "name": "create departments",
+                "description": "Permite crear departamentos."
+            },
+            {
+                "name": "edit departments",
+                "description": "Permite editar departamentos."
+            },
+            {
+                "name": "delete departments",
+                "description": "Permite eliminar departamentos."
+            }
+        ]
+    },
+    {
+        "name": "centers departments",
+        "description": "Módulo de centros departamentos, permite gestionar los departamentos de los centros de la aplicación.",
+        "permissions": [
+            {
+                "name": "view centers departments",
+                "description": "Permite visualizar los departamentos de los centros."
+            },
+            {
+                "name": "create centers departments",
+                "description": "Permite crear departamentos de los centros."
+            },
+            {
+                "name": "edit centers departments",
+                "description": "Permite editar departamentos de los centros."
+            },
+            {
+                "name": "delete centers departments",
+                "description": "Permite eliminar departamentos de los centros."
+            }
+        ]
+    },
+    {
+        "name": "contracts",
+        "description": "Módulo de contratos, permite gestionar los contratos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view contracts",
+                "description": "Permite visualizar los contratos."
+            },
+            {
+                "name": "create contracts",
+                "description": "Permite crear contratos."
+            },
+            {
+                "name": "edit contracts",
+                "description": "Permite editar contratos."
+            },
+            {
+                "name": "delete contracts",
+                "description": "Permite eliminar contratos."
+            },
+            {
+                "name": "view own contracts",
+                "description": "Permite visualizar los contratos propios"
+            },
+            {
+                "name": "view contract types",
+                "description": "Permite visualizar los tipos de contratos."
+            },
+            {
+                "name": "create contract types",
+                "description": "Permite crear tipos de contratos."
+            },
+            {
+                "name": "edit contract types",
+                "description": "Permite editar tipos de contratos."
+            },
+            {
+                "name": "delete contract types",
+                "description": "Permite eliminar tipos de contratos."
+            }
+        ]
+    },
+    {
+        "name": "annexes",
+        "description": "Módulo de anexos, permite gestionar los anexos de los contratos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view annexes",
+                "description": "Permite visualizar los anexos."
+            },
+            {
+                "name": "create annexes",
+                "description": "Permite crear anexos."
+            },
+            {
+                "name": "edit annexes",
+                "description": "Permite editar anexos."
+            },
+            {
+                "name": "delete annexes",
+                "description": "Permite eliminar anexos."
+            },
+            {
+                "name": "view own annexes",
+                "description": "Permite visualizar los anexos propios"
+            }
+        ]
+    },
+    {
+        "name": "assignments",
+        "description": "Módulo de asignaciones, permite gestionar las asignaciones de los contratos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view assignments",
+                "description": "Permite visualizar las asignaciones."
+            },
+            {
+                "name": "create assignments",
+                "description": "Permite crear asignaciones."
+            },
+            {
+                "name": "edit assignments",
+                "description": "Permite editar asignaciones."
+            },
+            {
+                "name": "delete assignments",
+                "description": "Permite eliminar asignaciones."
+            },
+            {
+                "name": "view own assignments",
+                "description": "Permite visualizar las asignaciones propias"
+            }
+        ]
+    },
+    {
+        "name": "work permits",
+        "description": "Módulo de permisos de trabajo, permite gestionar los permisos de trabajo de la aplicación.",
+        "permissions": [
+            {
+                "name": "view work permits",
+                "description": "Permite visualizar los permisos de trabajo."
+            },
+            {
+                "name": "create work permits",
+                "description": "Permite crear permisos de trabajo."
+            },
+            {
+                "name": "edit work permits",
+                "description": "Permite editar permisos de trabajo."
+            },
+            {
+                "name": "delete work permits",
+                "description": "Permite eliminar permisos de trabajo."
+            },
+            {
+                "name": "view own work permits",
+                "description": "Permite visualizar los permisos de trabajo propios"
+            },
+            {
+                "name": "view work permit types",
+                "description": "Permite visualizar los tipos de permisos de trabajo."
+            },
+            {
+                "name": "create work permit types",
+                "description": "Permite crear tipos de permisos de trabajo."
+            },
+            {
+                "name": "edit work permit types",
+                "description": "Permite editar tipos de permisos de trabajo."
+            },
+            {
+                "name": "delete work permit types",
+                "description": "Permite eliminar tipos de permisos de trabajo."
+            }
+        ]
+    },
+    {
+        "name": "work permit requests",
+        "description": "Módulo de solicitudes de permisos de trabajo, permite gestionar las solicitudes de permisos de trabajo de la aplicación.",
+        "permissions": [
+            {
+                "name": "view work permit requests",
+                "description": "Permite visualizar las solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "create work permit requests",
+                "description": "Permite crear solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "edit work permit requests",
+                "description": "Permite editar solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "delete work permit requests",
+                "description": "Permite eliminar solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "view own work permit requests",
+                "description": "Permite visualizar las solicitudes de permisos de trabajo propias"
+            },
+            {
+                "name": "ask work permit requests",
+                "description": "Permite solicitar permisos de trabajo."
+            },
+            {
+                "name": "cancel own work permit requests",
+                "description": "Permite cancelar las solicitudes de permisos de trabajo propias."
+            },
+            {
+                "name": "approve manager work permit requests",
+                "description": "Permite aprobar solicitudes de permisos de trabajo a nivel manager"
+            },
+            {
+                "name": "approve hr work permit requests",
+                "description": "Permite aprobar solicitudes de permisos de trabajo a nivel hr"
+            },
+            {
+                "name": "approve management work permit requests",
+                "description": "Permite aprobar solicitudes de permisos de trabajo a nivel dirección / gerencia"
+            },
+            {
+                "name": "approve hr work permit requests",
+                "description": "Permite aprobar solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "reject work permit requests",
+                "description": "Permite rechazar solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "cancel work permit requests",
+                "description": "Permite cancelar solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "view work permit request types",
+                "description": "Permite visualizar los tipos de solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "create work permit request types",
+                "description": "Permite crear tipos de solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "edit work permit request types",
+                "description": "Permite editar tipos de solicitudes de permisos de trabajo."
+            },
+            {
+                "name": "delete work permit request types",
+                "description": "Permite eliminar tipos de solicitudes de permisos de trabajo."
+            }
+        ]
+    },
+    {
+        "name": "events",
+        "description": "Módulo de eventos, permite gestionar los eventos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view events",
+                "description": "Permite visualizar los eventos."
+            },
+            {
+                "name": "create events",
+                "description": "Permite crear eventos."
+            },
+            {
+                "name": "edit events",
+                "description": "Permite editar eventos."
+            },
+            {
+                "name": "delete events",
+                "description": "Permite eliminar eventos."
+            },
+            {
+                "name": "view own events",
+                "description": "Permite visualizar los eventos propios"
+            },
+            {
+                "name": "view event types",
+                "description": "Permite visualizar los tipos de eventos."
+            },
+            {
+                "name": "create event types",
+                "description": "Permite crear tipos de eventos."
+            },
+            {
+                "name": "edit event types",
+                "description": "Permite editar tipos de eventos."
+            },
+            {
+                "name": "delete event types",
+                "description": "Permite eliminar tipos de eventos."
+            },
+            {
+                "name": "users in event",
+                "description": "Permite ver los usuarios en el evento."
+            },
+            {
+                "name": "add users to event",
+                "description": "Permite añadir usuarios al evento."
+            },
+            {
+                "name": "remove users from event",
+                "description": "Permite eliminar usuarios del evento."
+            }
+        ]
+    },
+    {
+        "name": "notifications",
+        "description": "Módulo de notificaciones, permite gestionar las notificaciones de la aplicación.",
+        "permissions": [
+            {
+                "name": "view notifications",
+                "description": "Permite visualizar las notificaciones."
+            },
+            {
+                "name": "create notifications",
+                "description": "Permite crear notificaciones."
+            },
+            {
+                "name": "edit notifications",
+                "description": "Permite editar notificaciones."
+            },
+            {
+                "name": "delete notifications",
+                "description": "Permite eliminar notificaciones."
+            },
+            {
+                "name": "view own notifications",
+                "description": "Permite visualizar las notificaciones propias"
+            },
+            {
+                "name": "mark notifications as read",
+                "description": "Permite marcar las notificaciones como leídas."
+            },
+            {
+                "name": "mark notifications as unread",
+                "description": "Permite marcar las notificaciones como no leídas."
+            },
+            {
+                "name": "delete own notifications",
+                "description": "Permite eliminar las notificaciones propias."
+            },
+            {
+                "name": "view notification types",
+                "description": "Permite visualizar los tipos de notificaciones."
+            },
+            {
+                "name": "create notification types",
+                "description": "Permite crear tipos de notificaciones."
+            },
+            {
+                "name": "edit notification types",
+                "description": "Permite editar tipos de notificaciones."
+            },
+            {
+                "name": "delete notification types",
+                "description": "Permite eliminar tipos de notificaciones."
+            }
+        ]
+    },
+    {
+        "name": "schedule",
+        "description": "Módulo de horarios, permite gestionar los horarios de la aplicación.",
+        "permissions": [
+            {
+                "name": "view schedule",
+                "description": "Permite visualizar los horarios."
+            },
+            {
+                "name": "create schedule",
+                "description": "Permite crear horarios."
+            },
+            {
+                "name": "edit schedule",
+                "description": "Permite editar horarios."
+            },
+            {
+                "name": "delete schedule",
+                "description": "Permite eliminar horarios."
+            },
+            {
+                "name": "view own schedule",
+                "description": "Permite visualizar los horarios propios"
+            },
+            {
+                "name": "partial edit own schedule",
+                "description": "Permite editar parcialmente los horarios propios."
+            },
+            {
+                "name": "view schedule status",
+                "description": "Permite visualizar los estados de los horarios."
+            },
+            {
+                "name": "create schedule status",
+                "description": "Permite crear estados de los horarios."
+            },
+            {
+                "name": "edit schedule status",
+                "description": "Permite editar estados de los horarios."
+            },
+            {
+                "name": "delete schedule status",
+                "description": "Permite eliminar estados de los horarios."
+            }
+        ]
+    },
+    {
+        "name": "absences notes",
+        "description": "Módulo de justificantes, permite gestionar las justificantes de la aplicación.",
+        "permissions": [
+            {
+                "name": "view absences notes",
+                "description": "Permite visualizar los justificantes."
+            },
+            {
+                "name": "create absences notes",
+                "description": "Permite crear justificantes."
+            },
+            {
+                "name": "edit absences notes",
+                "description": "Permite editar justificantes."
+            },
+            {
+                "name": "delete absences notes",
+                "description": "Permite eliminar justificantes."
+            },
+            {
+                "name": "view own absences notes",
+                "description": "Permite visualizar los justificantes propios"
+            },
+            {
+                "name": "view absences notes types",
+                "description": "Permite visualizar los tipos de justificantes."
+            },
+            {
+                "name": "create absences notes types",
+                "description": "Permite crear tipos de justificantes."
+            },
+            {
+                "name": "edit absences notes types",
+                "description": "Permite editar tipos de justificantes."
+            },
+            {
+                "name": "delete absences notes types",
+                "description": "Permite eliminar tipos de justificantes."
+            },
+            {
+                "name": "add absence note to own schedule",
+                "description": "Permite añadir justificante a los horarios propios."
+            }
+        ]
+    },
+    {
+        "name": "shifts",
+        "description": "Módulo de turnos, permite gestionar los turnos de la aplicación.",
+        "permissions": [
+            {
+                "name": "view shifts",
+                "description": "Permite visualizar los turnos."
+            },
+            {
+                "name": "create shifts",
+                "description": "Permite crear turnos."
+            },
+            {
+                "name": "edit shifts",
+                "description": "Permite editar turnos."
+            },
+            {
+                "name": "delete shifts",
+                "description": "Permite eliminar turnos."
+            }
+        ]
+    },
+    {
+        "name": "work days",
+        "description": "Módulo de jornadas laborales, permite gestionar las jornadas laborales de la aplicación.",
+        "permissions": [
+            {
+                "name": "view work days",
+                "description": "Permite visualizar las jornadas laborales."
+            },
+            {
+                "name": "create work days",
+                "description": "Permite crear jornadas laborales."
+            },
+            {
+                "name": "edit work days",
+                "description": "Permite editar jornadas laborales."
+            },
+            {
+                "name": "delete work days",
+                "description": "Permite eliminar jornadas laborales."
+            },
+            {
+                "name": "view my work days",
+                "description": "Permite visualizar las jornadas laborales propias."
+            }
+        ]
+    }
+]

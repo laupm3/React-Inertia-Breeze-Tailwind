@@ -1,0 +1,10 @@
+{
+    "login": "Iniciar sesión",
+    "language": "Idioma",
+    "theme": {
+        "title": "Tema",
+        "light": "Modo claro",
+        "dark": "Modo oscuro",
+        "system": "Tema del sistema"
+    }
+}

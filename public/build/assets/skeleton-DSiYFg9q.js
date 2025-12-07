@@ -1,0 +1,1 @@
+import{j as r}from"./app-fwyInB3c.js";import{c as t}from"./utils-CytzSlOG.js";function s({className:e,...o}){return r.jsx("div",{className:t("animate-pulse rounded-md bg-muted-foreground/30",e),...o})}export{s as S};

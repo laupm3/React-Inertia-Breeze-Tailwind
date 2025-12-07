@@ -1,0 +1,23 @@
+{
+    "controlPanel": "Panell de control",
+    "vacations": "Vacances",
+    "pendingDocumentation": "Documentació pendent",
+    "activeUsers": "Usuaris actius",
+    "usersByDepartment": "Usuaris per departament",
+    "clockIns": "Fichatges",
+    "noClockIns": "No fichats",
+    "permissions": "Permisos",
+    "finalizationContract": "Finalització de contractes",
+    "pending": "Pendent",
+    "completed": "Completat",
+    "weekFrom": "Setmana des de",
+    "to": "fins a",
+    "totalPending": "Total pendent",
+    "totalCompleted": "Total completat",
+    "total": "Total",
+    "totalClockIns": "Total de fichatges",
+    "totalNoClockIns": "Total de no fichats",
+    "users": "Usuaris",
+    "desktop": "Escriptori",
+    "mobile": "Mòbil"
+}

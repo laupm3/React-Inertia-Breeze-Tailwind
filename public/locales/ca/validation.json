@@ -1,0 +1,18 @@
+{
+    "email": {
+        "title": "Correu electrònic",
+        "placeholder": "Introdueix el teu correu electrònic",
+        "required": "El correu electrònic és obligatori",
+        "min": "El correu electrònic ha de tenir almenys 6 caràcters",
+        "max": "El correu electrònic no ha de superar els 50 caràcters",
+        "invalid": "El correu electrònic ha de ser vàlid"
+    },
+    "password": {
+        "title": "Contrasenya",
+        "placeholder": "Introdueix la teva contrasenya",
+        "required": "La contrasenya és obligatòria",
+        "min": "La contrasenya ha de tenir almenys 8 caràcters",
+        "max": "La contrasenya no ha de superar els 50 caràcters",
+        "invalid": "La contrasenya ha de contenir almenys una lletra i un número"
+    }
+}

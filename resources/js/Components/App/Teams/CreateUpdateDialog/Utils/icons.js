@@ -1,0 +1,25 @@
+const icons = [
+  'Smile',
+  'Swords',
+  'Banana',
+  'Beef',
+  'Bone',
+  'HandMetal',
+  'Brush',
+  'Coffee',
+  'ChartBar',
+  'Send',
+  'Zap',
+  'Rocket',
+  'House',
+  'Cookie',
+  'CodeXml',
+  'Box',
+  'Clapperboard',
+  'Backpack',
+  'Webhook',
+  'Lightbulb',
+  'Flame',
+];
+
+export default icons;

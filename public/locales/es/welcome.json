@@ -1,0 +1,29 @@
+{
+    "hello": "Todo lo que necesitas en un solo lugar",
+    "description": "Aplicación por y para el usuario, con las mejores herramientas para tu día a día",
+    "message.recoverPassword": "Sin problema. Escribe tu correo electrónico y te enviaremos a tu correo un enlace para reestablecer tu contraseña el cual te permitirá elegir una nueva.",
+    "login": {
+        "email": "Iniciar sesión con email",
+        "google": "Iniciar sesión con Google",
+        "submit": "Iniciar sesión",
+        "admin": "Administrador"
+    },
+    "policies": "Al iniciar sesión, aceptas los Términos de servicio y la Política de privacidad, incluida la política de Uso de Cookies.",
+    "password.forgot": "¿Olvidaste tu contraseña?",
+    "ClockIn": {
+        "myClockIns": "Mis Entradas",
+        "clockOut": "Registrar Salida",
+        "workedHours": "Horas trabajadas",
+        "weeklyHours": "Horas semanales",
+        "averageHoursPerDay": "Horas promedio por dia",
+        "hoursRemaining": "Horas restantes"
+    },
+    "incidencias": {
+        "title": "¿Algún problema?",
+        "description": "Introduce tus datos y la razón del problema",
+        "nombre": "Nombre",
+        "apellido": "Apellido",
+        "razon": "Escribe aquí la razón del problema...",
+        "enviar": "Enviar"
+    }
+}

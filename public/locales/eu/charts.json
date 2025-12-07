@@ -1,0 +1,23 @@
+{
+    "controlPanel": "Kontrol panela",
+    "vacations": "Oporrak",
+    "pendingDocumentation": "Zain dokumentazioa",
+    "activeUsers": "Erabiltzaile aktiboak",
+    "usersByDepartment": "Erabiltzaileak departamentuka",
+    "clockIns": "Fichajeak",
+    "noClockIns": "Ez fichatuak",
+    "permissions": "Baimenak",
+    "finalizationContract": "Kontratuen amaiera",
+    "pending": "Zain",
+    "completed": "Osatuta",
+    "weekFrom": "Astea -tik",
+    "to": "ra",
+    "totalPending": "Guztira zain",
+    "totalCompleted": "Guztira osatuta",
+    "total": "Guztira",
+    "totalClockIns": "Fichaje guztira",
+    "totalNoClockIns": "Ez fichatu guztira",
+    "users": "Erabiltzaileak",
+    "desktop": "Mahaigaina",
+    "mobile": "Mugikorra"
+}

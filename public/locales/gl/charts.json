@@ -1,0 +1,23 @@
+{
+    "controlPanel": "Panel de control",
+    "vacations": "Vacacións",
+    "pendingDocumentation": "Documentación pendente",
+    "activeUsers": "Usuarios activos",
+    "usersByDepartment": "Usuarios por departamento",
+    "clockIns": "Fichaxes",
+    "noClockIns": "Non fichados",
+    "permissions": "Permisos",
+    "finalizationContract": "Finalización de contratos",
+    "pending": "Pendente",
+    "completed": "Completado",
+    "weekFrom": "Semana dende",
+    "to": "ata",
+    "totalPending": "Total pendente",
+    "totalCompleted": "Total completado",
+    "total": "Total",
+    "totalClockIns": "Total de fichaxes",
+    "totalNoClockIns": "Total de non fichados",
+    "users": "Usuarios",
+    "desktop": "Escritorio",
+    "mobile": "Móbil"
+}

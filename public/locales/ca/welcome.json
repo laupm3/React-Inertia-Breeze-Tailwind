@@ -1,0 +1,21 @@
+{
+    "hello": "Tot el que necessites en un sol lloc",
+    "description": "Una aplicació feta per i per a l'usuari, amb les millors eines per al teu dia a dia",
+    "message.recoverPassword": "Cap problema. Introdueix el teu correu electrònic i t'enviarem un enllaç per restablir la teva contrasenya i poder-ne triar una de nova.",
+    "login": {
+        "email": "Inicia sessió amb correu electrònic",
+        "google": "Inicia sessió amb Google",
+        "submit": "Inicia sessió",
+        "admin": "Administrador"
+    },
+    "policies": "En iniciar sessió, acceptes els Termes del Servei i la Política de Privacitat, inclosa la Política d'Ús de Cookies.",
+    "password.forgot": "Has oblidat la teva contrasenya?",
+    "incidencias": {
+        "title": "Alguna qüestió?",
+        "description": "Introdueix el teu nom, cognoms, correu electrònic i la teva qüestió",
+        "enviar": "Enviar",
+        "nombre": "Nom",
+        "apellido": "Cognoms",
+        "razon": "Escriu aquí la teva qüestió..."
+    }
+}

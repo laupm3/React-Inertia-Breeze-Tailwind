@@ -1,0 +1,36 @@
+{
+    "VacationRequest": {
+        "startDate": "Fecha de inicio",
+        "endDate": "Fecha de finalización",
+        "partialDay": "Día parcial",
+        "confirmRequest": "Confirmar solicitud",
+        "requestedVacations": "Solicitudes de vacaciones",
+        "aprovedByBoss": "Aprobado por el líder",
+        "aprovedByHR": "Aprobado por RRHH",
+        "aprovedEnjoys": "Aprobado, ¡disfruta de tus vacaciones!",
+        "viewHistory": "Ver historial de vacaciones",
+        "pendingApproval": "Pendiente de aprobación",
+        "vacationsNonSolicited": "Vacaciones no solicitadas",
+        "remember": "Recuerda",
+        "warning": "Para garantizar la tramitación efectiva del permiso, se solicita presentarlo con 15 días hábiles de antelación. Las solicitudes extemporáneas quedarán sujetas a valoración."
+    },
+
+    "Vacation": {
+        "nonDefined": "No definido",
+        "accepted": "Aceptado",
+        "delayed": "En espera",
+        "rejected": "Rechazado",
+        "solicitationError": "Error en sollicitud",
+        "requestVacation": "Solicitar vacaciones",
+        "requestPermissions": "Solicitar permisos",
+        "daysRemaining": "Días restantes"
+    },
+    "Leaves": {
+        "information": "Información",
+        "typeOfLeave": "Tipo de Permiso",
+        "placeholder": "describa el motivo de su permiso",
+        "note": "Nota",
+        "confirmRequest": "Solicitar Permiso",
+        "emptyHistory": "No hay permisos solicitados"
+    }
+}

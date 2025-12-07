@@ -1,0 +1,1 @@
+import{j as s}from"./app-fwyInB3c.js";import{L as m}from"./label-zCtqi3J5.js";function n({value:t,children:r,className:a="",...e}){return s.jsx(m,{...e,className:"text-gray-700 dark:text-gray-300 text-md "+a,children:t||r})}export{n as I};

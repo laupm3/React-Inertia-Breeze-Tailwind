@@ -1,0 +1,31 @@
+<?php
+
+namespace App\Http\Requests\SolicitudPermiso;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+/**
+ * Request class for handling the index request of work permit applications
+ */
+class SolicitudPermisoIndexRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
+    {
+        return $this->user()->hasPermissionTo('viewWorkPermitRequestsPanel', 'web');
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     */
+    public function rules(): array
+    {
+        return [
+            //
+        ];
+    }
+}

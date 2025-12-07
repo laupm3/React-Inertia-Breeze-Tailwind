@@ -1,0 +1,1 @@
+import{r as u}from"./app-fwyInB3c.js";function s(r,t=500){const e=u.useRef(null);return u.useCallback((...n)=>{e.current&&clearTimeout(e.current),e.current=setTimeout(()=>{r(...n)},t)},[r,t])}export{s as u};

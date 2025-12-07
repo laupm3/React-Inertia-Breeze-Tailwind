@@ -1,0 +1,1 @@
+import{o as e,c as n,s as o,a}from"./types-BZmDMmQb.js";const r=l=>e({id:a().optional().nullable(),name:o().min(1,l("validation.required",{field:"nombre"})),description:o().optional().nullable(),esquema:n(e({weekday_number:a(),turno_id:a().nullable().optional(),modalidad_id:a().nullable().optional()})).optional()});export{r as default,r as jornadasSchema};

@@ -1,0 +1,1 @@
+import{j as i}from"./app-fwyInB3c.js";import{R as n}from"./RowActionsTrigger-DnJzXomR.js";const l={id:"actions",title:"Acciones",enableHiding:!1,enableSorting:!1,enableFiltering:!1,header:({column:e})=>i.jsx("span",{className:"text-center",children:"Acciones"}),cell:({row:e})=>i.jsx(n,{model:e.original})};export{l as r};

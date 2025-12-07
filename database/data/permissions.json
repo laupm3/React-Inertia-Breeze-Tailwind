@@ -1,0 +1,1973 @@
+{
+    "modules": [
+        {
+            "name": "Administración",
+            "description": "Módulo nivel administrador, permite visualizar y gestionar los flujos de la aplicación."
+        },
+        {
+            "name": "Anexos",
+            "description": "Módulo de anexos, permite gestionar los anexos de los contratos de la aplicación."
+        },
+        {
+            "name": "Asignaciones",
+            "description": "Módulo de asignaciones, permite gestionar las asignaciones de los contratos de la aplicación."
+        },
+        {
+            "name": "Calendario",
+            "description": "Calendario de eventos de los usuarios."
+        },
+        {
+            "name": "Carpetas",
+            "description": "Documentación de los usuarios, permite subir y gestionar documentos."
+        },
+        {
+            "name": "Carpetas y archivos",
+            "description": "Módulo de archivos, permite subir y gestionar archivos."
+        },
+        {
+            "name": "Centros",
+            "description": "Módulo de centros, permite gestionar los centros de la aplicación."
+        },
+        {
+            "name": "Contratos",
+            "description": "Módulo de contratos, permite gestionar los contratos de la aplicación."
+        },
+        {
+            "name": "Departamentos",
+            "description": "Módulo de departamentos, permite gestionar los departamentos de la aplicación."
+        },
+        {
+            "name": "Departamentos de centros",
+            "description": "Módulo de centros departamentos, permite gestionar los departamentos de los centros de la aplicación."
+        },
+        {
+            "name": "Direcciones",
+            "description": "Módulo de direcciones, permite gestionar las direcciones de los diferentes Models."
+        },
+        {
+            "name": "Empleados",
+            "description": "Módulo de empleados, permite gestionar los empleados de la aplicación."
+        },
+        {
+            "name": "Empresas",
+            "description": "Módulo de empresas, permite gestionar las empresas de la aplicación."
+        },
+        {
+            "name": "Enlaces",
+            "description": "Módulo de enlaces, funcionalidad clave del sidebar, permite gestionar los enlaces de la aplicación."
+        },
+        {
+            "name": "Equipos",
+            "description": "Módulo de equipos, permite gestionar los equipos de la aplicación."
+        },
+        {
+            "name": "Eventos",
+            "description": "Módulo de eventos, permite gestionar los eventos de la aplicación."
+        },
+        {
+            "name": "Extensiones de archivos",
+            "description": "Módulo de extensiones de archivos, permite gestionar las extensiones de los archivos."
+        },
+        {
+            "name": "Festivos",
+            "description": "Módulo de festivos, permite gestionar los festivos de la aplicación."
+        },
+        {
+            "name": "Fichajes",
+            "description": "Módulo de fichajes, permite gestionar los fichajes de los usuarios y empleados."
+        },
+        {
+            "name": "Horarios",
+            "description": "Módulo de horarios, permite gestionar los horarios de la aplicación."
+        },
+        {
+            "name": "Jornadas laborales",
+            "description": "Módulo de jornadas laborales, permite gestionar las jornadas laborales de la aplicación."
+        },
+        {
+            "name": "Justificantes",
+            "description": "Módulo de justificantes, permite gestionar las justificantes de la aplicación."
+        },
+        {
+            "name": "Módulos",
+            "description": "Módulo de módulos, permite gestionar los módulos de la aplicación relacionado con los permisos, agrupación de permisos."
+        },
+        {
+            "name": "Municipios",
+            "description": "Módulo de municipios, permite gestionar los municipios de la aplicación."
+        },
+        {
+            "name": "Niveles de acceso a archivos",
+            "description": "Módulo de control de acceso a los archivos, permite gestionar el rango de visibilidad de los archivos."
+        },
+        {
+            "name": "Nóminas",
+            "description": "Módulo de control y gestión de nóminas de los empleados."
+        },
+        {
+            "name": "Notificaciones",
+            "description": "Módulo de notificaciones, permite gestionar las notificaciones de la aplicación."
+        },
+        {
+            "name": "Permisos",
+            "description": "Módulo de permisos, permite gestionar los permisos de la aplicación."
+        },
+        {
+            "name": "Permisos de trabajo",
+            "description": "Módulo de permisos de trabajo, permite gestionar los permisos de trabajo de la aplicación."
+        },
+        {
+            "name": "Provincias",
+            "description": "Módulo de provincias, permite gestionar las provincias de la aplicación."
+        },
+        {
+            "name": "Roles",
+            "description": "Módulo de roles, permite gestionar los roles de la aplicación."
+        },
+        {
+            "name": "Solicitudes de permisos",
+            "description": "Módulo de solicitudes de permisos de trabajo, permite gestionar las solicitudes de permisos de trabajo de la aplicación."
+        },
+        {
+            "name": "Importaciones de datos",
+            "description": "Modulo "
+        },
+        {
+            "name": "Exportaciones de datos",
+            "description": "Modulo "
+        },
+        {
+            "name": "Turnos",
+            "description": "Módulo de turnos, permite gestionar los turnos de la aplicación."
+        },
+        {
+            "name": "Usuarios",
+            "description": "Módulo de usuarios, permite gestionar los usuarios de la aplicación."
+        },
+        {
+            "name": "Brevo",
+            "description": "Módulo de Brevo, integración administrativa con el sistema de mensajería Brevo."
+        },
+        {
+            "name": "Vacaciones",
+            "description": "Módulo de control y solicitud de vacaciones de los empleados."
+        }
+    ],
+    "roles": [
+        {
+            "name": "Super Admin",
+            "description": "Rol con privilegios máximos que permite gestionar todos los aspectos críticos de la aplicación. Tiene acceso a funcionalidades sensibles como eliminación de módulos, roles y permisos, así como a información confidencial. Es el único que puede realizar cambios estructurales en la aplicación."
+        },
+        {
+            "name": "Administrator",
+            "description": "Rol administrativo con amplios privilegios para gestionar usuarios, permisos, módulos, enlaces y configuraciones generales del sistema. Puede crear y modificar la mayoría de entidades, pero tiene restricciones en la eliminación de elementos críticos de la estructura de la aplicación."
+        },
+        {
+            "name": "Developer",
+            "description": "Rol técnico enfocado en la configuración y mantenimiento de los componentes del sistema. Puede gestionar aspectos técnicos como los municipios, provincias y festivos, así como la asignación de permisos a roles. Está diseñado para personal técnico que necesita ajustar el funcionamiento de la aplicación."
+        },
+        {
+            "name": "Human Resources",
+            "description": "Rol especializado en la gestión de personal. Tiene acceso al módulo de empleados, contratos, permisos de trabajo, solicitudes, vacaciones y eventos. Este rol permite ver datos sensibles de empleados pero con limitaciones en modificaciones estructurales del sistema."
+        },
+        {
+            "name": "HR Manager",
+            "description": "Rol superior de recursos humanos con capacidad para aprobar solicitudes y gestionar documentación crítica. Además de las capacidades del rol Human Resources, puede administrar documentos, aprobar solicitudes de permisos y vacaciones, y tiene mayor control sobre la información de los empleados."
+        },
+        {
+            "name": "Department Manager",
+            "description": "Rol de gestión departamental que permite supervisar archivos, aprobar solicitudes de permisos y vacaciones de miembros de su departamento, así como gestionar horarios y fichajes de los empleados a su cargo. Tiene acceso limitado a funciones administrativas."
+        },
+        {
+            "name": "Department Assistant",
+            "description": "Rol de apoyo a la gestión departamental con capacidad para visualizar y gestionar información básica de los centros y departamentos. Tiene permisos limitados enfocados en tareas de soporte administrativo dentro de un departamento específico"
+        },
+        {
+            "name": "User",
+            "description": "Rol básico para usuarios generales del sistema. Tiene acceso a su perfil, calendario, solicitudes propias y funcionalidades esenciales para usuarios finales de la aplicación."
+        },
+        {
+            "name": "All",
+            "description": "Rol base que define los permisos mínimos que todos los usuarios del sistema deben tener, independientemente de su función específica, como acceso al perfil, visualización de eventos básicos y solicitud de permisos o vacaciones."
+        }
+    ],
+    "permissions": [
+        {
+            "module": "Usuarios",
+            "title": "Ver el panel de gestión de usuarios",
+            "description": "Permite acceder a la vista de usuarios global detallada, permiso propio de administradores y gestores de la aplicación.",
+            "name": "viewUsersPanel",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Ver mi perfil de usuario.",
+            "description": "Otorga al usuario acceso a visualizar su perfil. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "viewMyProfile",
+            "roles": "All"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Ver usuario administración",
+            "description": "Permite obtener un listado de usuarios a nivel administrativo. Permiso propio de administradores y gestores. Este permiso es necesario en múltiples secciones de la aplicación.",
+            "name": "viewUsersAdmin",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Ver usuarios",
+            "description": "Permite obtener un listado de usuarios genérico. Este permiso se utiliza de forma común por todos los usuarios autenticados.",
+            "name": "viewUsers",
+            "roles": "All"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Crear usuarios",
+            "description": "Permite crear usuarios. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "createUsers",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Editar usuarios",
+            "description": "Permite editar usuarios. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "editUsers",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Eliminar usuarios",
+            "description": "Permite eliminar usuarios. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "deleteUsers",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Importar usuarios",
+            "description": "Permite importar usuarios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importUsers",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Exportar usuarios",
+            "description": "Permite exportar usuarios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportUsers",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Editar perfil de usuario.",
+            "description": "Otorga al usuario permiso a modificar su perfil. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "editUserProfile",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Activar 2FA para usuario",
+            "description": "Permite activar la autenticación de dos factores para el usuario. Utiliza Google Authenticator. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "activateUser2FA",
+            "roles": "All"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Desactivar 2FA para usuario",
+            "description": "Permite desactivar la autenticación de dos factores para el usuario. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "deactivateUser2FA",
+            "roles": "All"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Ver sesiones de usuario",
+            "description": "Permite visualizar el histórico de las sesiones pasadas y activas del usuario. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "viewUserSessions",
+            "roles": "All"
+        },
+        {
+            "module": "Usuarios",
+            "title": "Cerrar sesiones usuario.",
+            "description": "Permite cerrar las sesiones activas del usuario. Este permiso puede depender a su vez de el estado del usuario o empleado.",
+            "name": "logoutUserSessions",
+            "roles": "All"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Acceder explorador de carpetas y archivos avanzado",
+            "description": "Permite acceso al sistema de archivos para roles con altos privilegios. Esto permite navegar entre cualquier carpeta del sistema y visualizar cualquier archivo.",
+            "name": "viewAdminFiles",
+            "roles": "Super Admin, Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Acceder explorador de carpetas y archivos del empleado",
+            "description": "Permite acceder al explorador de carpetas y archivos correspondiente al empleado. Para esto será necesario tener una carpeta en empleados con su CIF correspondiente.",
+            "name": "viewEmployeeFiles",
+            "roles": "All"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver papelera de carpeta y archivos",
+            "description": "Permite visualizar las carpetas y archivos eliminados del sistema. Los archivos nunca se eliminan definitivamente del sistema sino que permanecen en un estado descartado (oculto).",
+            "name": "viewFoldersTrashBin",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpetas y archivos compartidos",
+            "description": "Permite visualizar todos los archivos y carpetas compartidos.",
+            "name": "viewSharedFolders",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpeta y archivos",
+            "description": "Permite obtener un listado de archivos o carpetas. Los usuarios sin este permiso solo podrán obtener listados de carpetas y archivos que les pertenezcan. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "viewFiles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Crear carpetas y archivos",
+            "description": "Permite crear carpetas y subir archivos. Solo podrán crear carpetas y archivos a aquellas partes del sistema a la que tengan acceso. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "createFiles",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Editar carpetas y archivos",
+            "description": "Permite editar carpetas y subir archivos. Solo podrán editar carpetas y archivos a aquellas partes del sistema a la que tengan acceso. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "editFiles",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Eliminar carpetas y archivos",
+            "description": "Permite eliminar carpetas y archivos. La mayoría de usuarios no tendrán acceso a este permiso bajo ningún concepto. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "deleteFiles",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Descargar carpetas y archivos",
+            "description": "Permite descargar carpetas y archivos. Los usuarios sin este permiso solo podrán descargar aquello que les pertenece y siempre que el estado del usuario o empleado sea apto.",
+            "name": "downloadFiles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Compartir carpetas y archivos",
+            "description": "Permite compartir archivos y carpetas. Los usuarios sin este permiso solo podrán compartir aquello que les pertenece y siempre que el estado del usuario o empleado sea apto.",
+            "name": "shareFiles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ocultar carpetas y archivos",
+            "description": "Permite ocultar archivos y carpetas. Los archivos y carpetas ocultas solo podrán verse por aquellos que tengan el permiso de ver ocultos.",
+            "name": "hideFiles",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpetas y archivos ocultos",
+            "description": "Permite visualizar las carpetas y archivos ocultos.",
+            "name": "viewHiddenFiles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpetas y archivos de valor confidencial",
+            "description": "Permite acceder a los archivos y carpetas de acceso confidencial.",
+            "name": "confidentialFilesAccess",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpetas y archivos de acceso restringido",
+            "description": "Permite acceder a los archivos y carpetas de acceso restringido.",
+            "name": "limitedFilesAccess",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Carpetas y archivos",
+            "title": "Ver carpetas y archivos de acceso público",
+            "description": "Permite acceder a los archivos y carpetas de acceso público.",
+            "name": "publicFilesAccess",
+            "roles": "All"
+        },
+        {
+            "module": "Equipos",
+            "title": "Ver el panel de gestión de equipos",
+            "description": "Permite visualizar el listado global de equipos, función propia de administradores y gestores de la aplicación.",
+            "name": "viewTeamsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Equipos",
+            "title": "Ver mis equipos.",
+            "description": "Permite acceder al usuario a la sección de mis equipos. Este permiso permite limitar a un usuario cuando interese que no pueda acceder a sus equipos.",
+            "name": "viewMyTeamsPanel",
+            "roles": "All"
+        },
+        {
+            "module": "Equipos",
+            "title": "Ver equipos",
+            "description": "Permite obtener un listado de equipos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewTeams",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Equipos",
+            "title": "Crear equipos",
+            "description": "Permite crear equipos. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "createTeams",
+            "roles": "All"
+        },
+        {
+            "module": "Equipos",
+            "title": "Editar equipos",
+            "description": "Permite editar equipos. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "updateTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Eliminar equipos",
+            "description": "Otorga al usuario el poder de eliminar equipos. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "deleteTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Añadir usuarios a equipos",
+            "description": "Permite agregar nuevos usuarios a los equipos. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "addUsersToTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Invitar usuarios a equipos",
+            "description": "Permite invitar nuevos usuarios a los equipos. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "invitateUsersToTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Eliminar usuarios de equipos",
+            "description": "Permite eliminar miembros del equipo, expulsándolos del mismo. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "removeUsersFromTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Actualizar usuarios de equipos",
+            "description": "Permite actualizar los roles de los miembros dentro del equipo. Este permiso sobreescribe los permisos asociados al rol dentro del equipo. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "updateUsersFromTeams",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Equipos",
+            "title": "Exportar equipos",
+            "description": "Permite exportar equipos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportTeams",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Ver el panel de gestión de empleados",
+            "description": "Permite acceder a la vista de empleados global detallada, permiso propio de administradores y gestores de la aplicación. Este permiso puede verse afectado según el estado del empleado o usuario.",
+            "name": "viewEmployeesPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Ver empleados",
+            "description": "Permite obtener un listado de empleados. Este permiso es necesario en múltiples secciones de la aplicación.",
+            "name": "viewEmployees",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Crear empleados",
+            "description": "Permite crear empleados. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "createEmployees",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Editar empleados",
+            "description": "Permite editar empleados. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "editEmployees",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Eliminar empleados",
+            "description": "Permite eliminar empleados. Suele atribuirse a administradores y gestores de la aplicación. Este permiso se ve condicionado en base al estado del empleado o usuario.",
+            "name": "deleteEmployees",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Empleados",
+            "title": "Importar empleados",
+            "description": "Permite importar empleados de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importEmployees",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Empleados",
+            "title": "Exportar empleados",
+            "description": "Permite exportar empleados de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportEmployees",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Municipios",
+            "title": "Ver el panel de municipios",
+            "description": "Permite acceder al panel de administración de municipios. Permiso propio de administradores. No requiere modificación salvo excepcionalidades.",
+            "name": "viewMunicipiosPanel",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Ver municipios",
+            "description": "Permite visualizar los municipios. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "viewMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Crear municipios",
+            "description": "Permite crear municipios. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "createMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Editar municipios",
+            "description": "Permite editar municipios. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "editMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Eliminar municipios",
+            "description": "Permite eliminar municipios. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "deleteMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Importar municipios",
+            "description": "Permite importar municipios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Municipios",
+            "title": "Exportar municipios",
+            "description": "Permite exportar municipios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportMunicipios",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Ver el panel de provincias",
+            "description": "Permite acceder al panel de administración de provincias. Permiso propio de administradores. No requiere modificación salvo excepcionalidades.",
+            "name": "viewProvinciasPanel",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Ver provincias",
+            "description": "Permite visualizar las provincias. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "viewProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Crear provincias",
+            "description": "Permite crear provincias. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "createProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Editar provincias",
+            "description": "Permite editar provincias. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "editProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Eliminar provincias",
+            "description": "Permite eliminar provincias. Suele atribuirse a administradores y gestores de la aplicación.",
+            "name": "deleteProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Importar provincias",
+            "description": "Permite importar provincias de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Provincias",
+            "title": "Exportar provincias",
+            "description": "Permite exportar provincias de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportProvincias",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Festivos",
+            "title": "Ver el panel de festivos",
+            "description": "Permite acceder a la vista global detallada de festivos. Este permiso permite administrar ampliamente los festivos que se aplican en toda la aplicación. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewFestivosPanel",
+            "roles": "Administrator, Developer, HR Manager, Human Resources"
+        },
+        {
+            "module": "Festivos",
+            "title": "Ver festivos",
+            "description": "Permite obtener un listado de festivos. Permiso utilizado por administradores y gestores.",
+            "name": "viewFestivos",
+            "roles": "Administrator, Developer, HR Manager, Human Resources"
+        },
+        {
+            "module": "Festivos",
+            "title": "Crear festivos",
+            "description": "Permite crear festivos. Permiso utilizado por administradores y gestores.",
+            "name": "createFestivos",
+            "roles": "Administrator, Developer, HR Manager"
+        },
+        {
+            "module": "Festivos",
+            "title": "Editar festivos",
+            "description": "Permite editar festivos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editFestivos",
+            "roles": "Administrator, Developer, HR Manager"
+        },
+        {
+            "module": "Festivos",
+            "title": "Eliminar festivos",
+            "description": "Permite eliminar festivos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteFestivos",
+            "roles": "Administrator, Developer, HR Manager"
+        },
+        {
+            "module": "Festivos",
+            "title": "Importar festivos",
+            "description": "Permite importar festivos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importFestivos",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Festivos",
+            "title": "Exportar festivos",
+            "description": "Permite exportar festivos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportFestivos",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Roles",
+            "title": "Ver el panel de gestión de roles",
+            "description": "Permite acceder a la vista de roles global detallada. Permiso propio de administradores y gestores de la aplicación. Este permiso puede verse afectado según el estado del empleado o usuario.",
+            "name": "viewRolesPanel",
+            "roles": "Administrator, Developer, HR Manager"
+        },
+        {
+            "module": "Roles",
+            "title": "Ver roles",
+            "description": "Permite obtener un listado de roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewRoles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Roles",
+            "title": "Crear roles",
+            "description": "Permite crear roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createRoles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Roles",
+            "title": "Editar roles",
+            "description": "Permite editar roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editRoles",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Roles",
+            "title": "Eliminar roles",
+            "description": "Permite eliminar roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteRoles",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Roles",
+            "title": "Exportar roles",
+            "description": "Permite exportar roles de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportRoles",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Ver el panel de gestión de permisos (roles)",
+            "description": "Permite acceder a la vista global detallada de permisos complementario a roles. Permiso propio de administradores y gestores de la aplicación. Este permiso puede verse afectado según el estado del empleado o usuario.",
+            "name": "viewPermissionsPanel",
+            "roles": "Administrator, Developer, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Ver permisos",
+            "description": "Permite visualizar los permisos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewPermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Crear permisos",
+            "description": "Permite crear permisos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createPermissions",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Permisos",
+            "title": "Editar permisos",
+            "description": "Permite editar permisos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editPermissions",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar permisos",
+            "description": "Permite eliminar permisos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deletePermissions",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Permisos",
+            "title": "Importar permisos",
+            "description": "Permite importar permisos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importPermissions",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Permisos",
+            "title": "Exportar permisos",
+            "description": "Permite exportar permisos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportPermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Ver permisos asignados a roles",
+            "description": "Permite visualizar los permisos asignados a los roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewRolePermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Asignar permisos a roles",
+            "description": "Permite asignar permisos a los roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "assignRolePermissions",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar permisos de roles",
+            "description": "Permite eliminar permisos de los roles. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "removeRolePermissions",
+            "roles": "Administrator, Developer"
+        },
+        {
+            "module": "Permisos",
+            "title": "Ver permisos asignados a usuarios",
+            "description": "Permite visualizar los permisos asignados directamente a los usuarios. Permiso utilizado por administradores y gestores.",
+            "name": "viewDirectPermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Asignar permisos a usuarios",
+            "description": "Permite asignar permisos directamente a los usuarios. Permiso utilizado por administradores y gestores.",
+            "name": "assignDirectPermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar permisos de usuarios",
+            "description": "Permite eliminar permisos asignados directamente a los usuarios. Permiso utilizado por administradores y gestores.",
+            "name": "removeDirectPermissions",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Módulos",
+            "title": "Ver el panel de módulos (permisos)",
+            "description": "Permite acceder a la vista global detallada de módulos (componentes de la aplicación). Permiso propio de administradores y gestores.",
+            "name": "viewModulesPanel",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Módulos",
+            "title": "Ver módulos",
+            "description": "Permite obtener un listado de módulos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewModules",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Módulos",
+            "title": "Crear módulos",
+            "description": "Permite crear módulos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createModules",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Módulos",
+            "title": "Editar módulos",
+            "description": "Permite editar módulos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editModules",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Módulos",
+            "title": "Exportar módulos",
+            "description": "Permite exportar módulos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportModules",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Ver el panel de enlaces",
+            "description": "Permite acceder a la vista global detallada de enlaces. Este panel permite configurar ampliamente los enlaces de la aplicación que los usuarios van a tener acceso.",
+            "name": "viewLinksPanel",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Ver enlaces",
+            "description": "Permite obtener un listado de enlaces. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewLinks",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Crear enlaces",
+            "description": "Permite crear enlaces. Permiso utilizado por administradores y gestores.",
+            "name": "createLinks",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Editar enlaces",
+            "description": "Permite editar enlaces. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editLinks",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Eliminar enlaces",
+            "description": "Permite eliminar enlaces. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteLinks",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Enlaces",
+            "title": "Exportar enlaces",
+            "description": "Permite exportar enlaces de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportLinks",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Empresas",
+            "title": "Ver panel de administración de empresas",
+            "description": "Permite acceder a la vista de empresas global detallada, permiso propio de administradores y gestores de la aplicación.",
+            "name": "viewCompaniesPanel",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Empresas",
+            "title": "Ver empresas",
+            "description": "Permite obtener un listado de empresas. Permiso utilizado por administradores y gestores.",
+            "name": "viewCompanies",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Empresas",
+            "title": "Crear empresas",
+            "description": "Permite crear empresas. Permiso utilizado por administradores y gestores.",
+            "name": "createCompanies",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Empresas",
+            "title": "Editar empresas",
+            "description": "Permite editar empresas. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editCompanies",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Empresas",
+            "title": "Eliminar empresas",
+            "description": "Permite eliminar empresas. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteCompanies",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Empresas",
+            "title": "Importar empresas",
+            "description": "Permite importar empresas de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importCompanies",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Empresas",
+            "title": "Exportar empresas",
+            "description": "Permite exportar empresas de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportCompanies",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Ver panel de administración de centros",
+            "description": "Permite acceder a la vista de centros global detallada, permiso propio de administradores y gestores de la aplicación.",
+            "name": "viewCentersPanel",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Ver centros",
+            "description": "Permite obtener un listado de centros. Permiso utilizado por administradores y gestores.",
+            "name": "viewCenters",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Crear centros",
+            "description": "Permite crear centros. Permiso utilizado por administradores y gestores.",
+            "name": "createCenters",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Editar centros",
+            "description": "Permite editar centros. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editCenters",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Eliminar centros",
+            "description": "Permite eliminar centros. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteCenters",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Centros",
+            "title": "Importar centros",
+            "description": "Permite importar centros de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importCenters",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Centros",
+            "title": "Exportar centros",
+            "description": "Permite exportar centros de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportCenters",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Ver panel de administración de departamentos",
+            "description": "Permite acceder a la vista de departamentos global detallada, permiso propio de administradores y gestores de la aplicación.",
+            "name": "viewDepartmentsPanel",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Ver departamentos",
+            "description": "Permite obtener un listado de departamentos. Permiso utilizado por administradores y gestores.",
+            "name": "viewDepartments",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Crear departamentos",
+            "description": "Permite crear departamentos. Permiso utilizado por administradores y gestores.",
+            "name": "createDepartments",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Editar departamentos",
+            "description": "Permite editar departamentos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editDepartments",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Eliminar departamentos",
+            "description": "Permite eliminar departamentos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteDepartments",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Importar departamentos",
+            "description": "Permite importar departamentos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importDepartments",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Departamentos",
+            "title": "Exportar departamentos",
+            "description": "Permite exportar departamentos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportDepartments",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Contratos",
+            "title": "Ver panel de administración de contratos",
+            "description": "Permite acceder a la vista de contratos global detallada. Permiso propio de administradores y gestores.",
+            "name": "viewContractsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Ver mis contratos",
+            "description": "Permite visualizar los contratos propios del empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyContracts",
+            "roles": "All"
+        },
+        {
+            "module": "Contratos",
+            "title": "Ver contratos",
+            "description": "Permite obtener un listado de contratos. Permiso utilizado por administradores y gestores.",
+            "name": "viewContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Crear contratos",
+            "description": "Permite crear contratos. Permiso utilizado por administradores y gestores.",
+            "name": "createContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Editar contratos",
+            "description": "Permite editar contratos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Eliminar contratos",
+            "description": "Permite eliminar contratos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Importar contratos",
+            "description": "Permite importar contratos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Exportar contratos",
+            "description": "Permite exportar contratos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportContracts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Ver el panel de administración de tipos de contratos",
+            "description": "Permite acceder a la vista global detallada de tipos de contratos. Permiso propio de administradores y gestores.",
+            "name": "viewContractTypesPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Ver tipos de contratos",
+            "description": "Permite obtener un listado de tipos de contratos. Permiso utilizado por administradores y gestores.",
+            "name": "viewContractTypes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Contratos",
+            "title": "Crear tipos de contratos",
+            "description": "Permite crear tipos de contratos. Permiso utilizado por administradores y gestores.",
+            "name": "createContractTypes",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Contratos",
+            "title": "Editar tipos de contratos",
+            "description": "Permite editar tipos de contratos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editContractTypes",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Contratos",
+            "title": "Eliminar tipos de contratos",
+            "description": "Permite eliminar tipos de contratos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteContractTypes",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Anexos",
+            "title": "Ver el panel de administración de anexos",
+            "description": "Permite acceder a la vista global detallada de anexos. Permiso propio de administradores y gestores.",
+            "name": "viewAnnexesPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Ver anexos",
+            "description": "Permite obtener un listado de anexos. Permiso utilizado por administradores y gestores.",
+            "name": "viewAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Crear anexos",
+            "description": "Permite crear anexos. Permiso utilizado por administradores y gestores.",
+            "name": "createAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Editar anexos",
+            "description": "Permite editar anexos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Eliminar anexos",
+            "description": "Permite eliminar anexos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Importar anexos",
+            "description": "Permite importar anexos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Anexos",
+            "title": "Exportar anexos",
+            "description": "Permite exportar anexos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportAnnexes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Ver el panel de administración de asignaciones",
+            "description": "Permite acceder a la vista global detallada de asignaciones. Permiso propio de administradores y gestores.",
+            "name": "viewAssignmentsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Ver asignaciones",
+            "description": "Permite obtener un listado de asignaciones. Permiso utilizado por administradores y gestores.",
+            "name": "viewAssignments",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Crear asignaciones",
+            "description": "Permite crear asignaciones. Permiso utilizado por administradores y gestores.",
+            "name": "createAssignments",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Editar asignaciones",
+            "description": "Permite editar asignaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editAssignments",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Eliminar asignaciones",
+            "description": "Permite eliminar asignaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteAssignments",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Importar asignaciones",
+            "description": "Permite importar asignaciones de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importAssignments",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Asignaciones",
+            "title": "Exportar asignaciones",
+            "description": "Permite exportar asignaciones de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportAssignments",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Ver el panel de permisos de trabajo",
+            "description": "Permite acceder a la vista global detallada de permisos de trabajo. Permiso propio de administradores y gestores. No confundir con solicitudes de permisos de trabajo.",
+            "name": "viewWorkPermitsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Ver permisos de trabajo",
+            "description": "Permite obtener un listado de permisos de trabajo. Permiso utilizado por administradores y gestores.",
+            "name": "viewWorkPermits",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Crear permisos de trabajo",
+            "description": "Permite crear permisos de trabajo. Permiso utilizado por administradores y gestores.",
+            "name": "createWorkPermits",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Editar permisos de trabajo",
+            "description": "Permite editar permisos de trabajo. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editWorkPermits",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Eliminar permisos de trabajo",
+            "description": "Permite eliminar permisos de trabajo. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteWorkPermits",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Permisos de trabajo",
+            "title": "Exportar permisos de trabajo",
+            "description": "Permite exportar permisos de trabajo de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportWorkPermits",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Ver el panel de solicitudes de permiso",
+            "description": "Permite acceder a la vista global detallada de solicitudes de permisos de trabajo. Permiso propio de administradores y gestores. No confundir con solicitudes de permisos de trabajo.",
+            "name": "viewWorkPermitRequestsPanel",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Ver mis solicitudes de permiso",
+            "description": "Permite visualizar las solicitudes de permiso propias del empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyWorkPermitRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Ver solicitudes de permisos",
+            "description": "Permite obtener un listado de las solicitudes de permisos de trabajo. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Crear solicitudes de permisos",
+            "description": "Permite crear solicitudes de permisos de trabajo. Por lo general, todos los empleados pueden crear solicitudes. Permiso utilizado por administradores y gestores.",
+            "name": "createWorkPermitRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Editar solicitudes de permisos",
+            "description": "Permite editar solicitudes de permisos de trabajo. Este permiso sobreescribe al funcionamiento normal de la aplicación. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Eliminar solicitudes de permisos",
+            "description": "Permite eliminar solicitudes de permisos de trabajo. Este permiso sobreescribe al funcionamiento normal de la aplicación. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Exportar solicitudes de permisos",
+            "description": "Permite exportar asignaciones de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Solicitar permisos",
+            "description": "Permite eliminar solicitudes de permisos de trabajo. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "askWorkPermitRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Cancelar solicitudes propias",
+            "description": "Permite cancelar las solicitudes de permisos de trabajo propias. Depende del estado del usuario o empleado y del estado de la solicitud.",
+            "name": "cancelMyWorkPermitRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Permite aprobar o rechazar solicitudes de permisos (Manager)",
+            "description": "Permite aprobar o rechazar solicitud de permisos de trabajo a nivel de manager. Los manager de departamento podrán aprobar estas solicitudes gracias a tener asociado un departamento directamente a su usuario.",
+            "name": "canManageManagerWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Permite aprobar o rechazar solicitudes de permisos (HR)",
+            "description": "Permite aprobar o rechazar solicitudes de permisos de trabajo a nivel hr, múltiples roles pueden tener permiso en caso de que se desee ",
+            "name": "canManageHrWorkPermitRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Solicitudes de permisos",
+            "title": "Permite aprobar o rechazar solicitudes de permisos (Dirección)",
+            "description": "Permite aprobar o rechazar solicitudes de permisos de trabajo a nivel directiva.",
+            "name": "canManageDirectionWorkPermitRequests",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Ver el panel de solicitudes de vacaciones",
+            "description": "Permite acceder a la vista global detallada de solicitudes de vacaciones. Permiso propio de administradores y gestores. Se distingue de solicitudes de permisos de trabajo en la forma en cómo se procesan.",
+            "name": "viewHolidaysRequestsPanel",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Ver mis solicitudes de vacaciones",
+            "description": "Permite visualizar las solicitudes de vacaciones propias del empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyHolidaysRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Ver solicitudes de vacaciones",
+            "description": "Permite obtener un listado de las solicitudes de permisos de trabajo. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Crear solicitudes de vacaciones",
+            "description": "Permite crear solicitudes de vacaciones. Permiso utilizado por administradores y gestores.",
+            "name": "createHolidaysRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Editar solicitudes de vacaciones",
+            "description": "Permite editar solicitudes de vacaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Eliminar solicitudes de vacaciones",
+            "description": "Permite eliminar solicitudes de vacaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Exportar solicitudes de vacaciones",
+            "description": "Permite exportar solicitudes de vacaciones de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Solicitar vacaciones",
+            "description": "Permite solicitar vacaciones. Se diferencia de crear solicitudes de permisos en el grado y alcance que tiene. Este permiso es generalmente asociado a usuarios y empleados con roles básicos donde el único permiso que pueden crear es para si mismo.",
+            "name": "askHolidaysRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Cancelar solicitudes de vacaciones propias",
+            "description": "Permite cancelar las solicitudes de vacaciones propias. Depende del estado del usuario o empleado y del estado de la solicitud.",
+            "name": "cancelMyHolidaysRequests",
+            "roles": "All"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Permite aprobar o rechazar solicitudes de vacaciones (Manager)",
+            "description": "Permite aprobar o rechazar solicitud de vacaciones a nivel de manager. Los manager de departamento podrán aprobar estas solicitudes gracias a tener asociado un departamento directamente a su usuario.",
+            "name": "canManageManagerHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Permite aprobar o rechazar solicitudes de vacaciones (HR)",
+            "description": "Permite aprobar o rechazar solicitudes de vacaciones a nivel hr, múltiples roles pueden tener permiso en caso de que se desee ",
+            "name": "canManageHrHolidaysRequests",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Vacaciones",
+            "title": "Permite aprobar o rechazar solicitudes de vacaciones (Dirección)",
+            "description": "Permite aprobar o rechazar solicitudes de vacaciones a nivel directiva.",
+            "name": "canManageDirectionHolidaysRequests",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Eventos",
+            "title": "Ver el panel de administración de eventos",
+            "description": "Permite acceder a la vista global detallada de eventos. Permiso propio de administradores y gestores.",
+            "name": "viewEventsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Ver mis eventos",
+            "description": "Permite visualizar los eventos propios del usuario o empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyEvents",
+            "roles": "All"
+        },
+        {
+            "module": "Eventos",
+            "title": "Ver eventos",
+            "description": "Permite obtener un listado de los eventos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewEvents",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Crear eventos",
+            "description": "Permite crear eventos. Permiso utilizado por administradores y gestores.",
+            "name": "createEvents",
+            "roles": "All"
+        },
+        {
+            "module": "Eventos",
+            "title": "Editar eventos",
+            "description": "Permite editar eventos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editEvents",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Eliminar eventos",
+            "description": "Permite eliminar eventos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteEvents",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Ver usuarios en eventos",
+            "description": "Permite ver los usuarios de los eventos. Permiso utilizado por administradores y gestores. Este permiso sobreescribe la lógica por la cual un usuario puede ver los miembros de los eventos a los que pertenece.",
+            "name": "usersInEvent",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Añadir usuarios a eventos",
+            "description": "Permite añadir usuarios al evento. Permiso utilizado por administradores y gestores. Este permiso sobreescribe la lógica por la cual un usuario puede añadir miembros a los eventos a los que pertenece.",
+            "name": "addUsersToEvent",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Actualizar usuarios en eventos",
+            "description": "Permite actualizar los roles de los miembros dentro del evento. Este permiso sobreescribe los permisos asociados al rol dentro del evento. Utilizado mayoritariamente por administradores y gestores de la aplicación.",
+            "name": "updateUsersFromEvents",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Eliminar usuarios de eventos",
+            "description": "Permite eliminar usuarios del evento. Permiso utilizado por administradores y gestores. Este permiso sobreescribe la lógica por la cual un usuario puede eliminar miembros de los eventos a los que pertenece.",
+            "name": "removeUsersFromEvent",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Eventos",
+            "title": "Exportar eventos",
+            "description": "Permite exportar eventos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportEvents",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Ver panel administrativo de notificaciones",
+            "description": "Permite acceder a la vista global detallada de notificaciones. Permiso propio de administradores y gestores.",
+            "name": "viewNotificationsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Ver mis notificaciones",
+            "description": "Permite visualizar las notificaciones del usuario o empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyNotifications",
+            "roles": "All"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Ver notificaciones",
+            "description": "Permite obtener un listado de las notificaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewNotifications",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Crear notificaciones",
+            "description": "Permite crear notificaciones. Permiso utilizado por administradores y gestores.",
+            "name": "createNotifications",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Editar notificaciones",
+            "description": "Permite editar notificaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editNotifications",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Eliminar notificaciones",
+            "description": "Permite eliminar notificaciones. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteNotifications",
+            "roles": "Administrator"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Exportar notificaciones",
+            "description": "Permite exportar notificaciones de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportNotifications",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Marcar notificaciones como leídas",
+            "description": "Permite marcar las notificaciones como leídas. Este permiso sobreescribe el comportamiento nativo por el cual un usuario o empleado puede marcar solo las notificaciones suyas como leídas o no leídas. Este permiso se ve condicionado por el estado del usuario o empleado.",
+            "name": "markNotificationsAsRead",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Marcar notificaciones como no leídas",
+            "description": "Permite marcar las notificaciones como no leídas. Este permiso sobreescribe el comportamiento nativo por el cual un usuario o empleado puede marcar solo las notificaciones suyas como leídas o no leídas. Este permiso se ve condicionado por el estado del usuario o empleado.",
+            "name": "markNotificationsAsUnread",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Notificaciones",
+            "title": "Eliminar notificaciones propias",
+            "description": "Permite eliminar las notificaciones propias. Este permiso se ve condicionado por el estado del usuario o empleado.",
+            "name": "deleteMyNotifications",
+            "roles": "Super Admin"
+        },
+        {
+            "module": "Horarios",
+            "title": "Ver panel administrativo de horarios",
+            "description": "Permite acceder a la vista global detallada de horarios. Permiso propio de administradores y gestores.",
+            "name": "viewSchedulePanel",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Horarios",
+            "title": "Ver mis horarios",
+            "description": "Permite visualizar los horarios del empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMySchedule",
+            "roles": "All"
+        },
+        {
+            "module": "Horarios",
+            "title": "Ver horarios",
+            "description": "Permite obtener un listado de horarios. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewSchedule",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Horarios",
+            "title": "Crear horarios",
+            "description": "Permite crear horarios. Permiso utilizado por administradores y gestores.",
+            "name": "createSchedule",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Horarios",
+            "title": "Editar horarios",
+            "description": "Permite editar horarios. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editSchedule",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Horarios",
+            "title": "Eliminar horarios",
+            "description": "Permite eliminar horarios. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteSchedule",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Horarios",
+            "title": "Importar horarios",
+            "description": "Permite importar horarios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "importSchedule",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Horarios",
+            "title": "Exportar horarios",
+            "description": "Permite exportar horarios de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportSchedule",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Ver panel administrativo de fichajes",
+            "description": "Permite acceder a la vista global detallada de fichajes. Permiso propio de administradores y gestores.",
+            "name": "viewClockInPanel",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Ver mis fichajes",
+            "description": "Permite visualizar los fichajesdel empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyClockIn",
+            "roles": "All"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Ver fichajes",
+            "description": "Permite obtener un listado de fichajes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewClockIn",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Crear fichajes",
+            "description": "Permite crear fichajes. Permiso utilizado por administradores y gestores.",
+            "name": "createClockIn",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Editar fichajes",
+            "description": "Permite editar fichajes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editClockIn",
+            "roles": "Administrator, HR Manager, Human Resources, Department Manager"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Eliminar fichajes",
+            "description": "Permite eliminar fichajes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteClockIn",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Fichajes",
+            "title": "Exportar fichajes",
+            "description": "Permite exportar fichajes de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportClockIn",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Ver panel administrativo de justificantes",
+            "description": "Permite acceder a la vista global detallada de justificantes. Permiso propio de administradores y gestores.",
+            "name": "viewAbsencesNotesPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Ver mis justificantes",
+            "description": "Permite visualizar los justificantes del usuario o empleado. Este permiso puede verse modificado por el estado del usuario o empleado.",
+            "name": "viewMyAbsencesNotes",
+            "roles": "All"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Ver justificantes",
+            "description": "Permite obtener un listado de los justificantes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewAbsencesNotes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Crear justificantes",
+            "description": "Permite crear justificantes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createAbsencesNotes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Editar justificantes",
+            "description": "Permite editar justificantes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editAbsencesNotes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Eliminar justificantes",
+            "description": "Permite eliminar justificantes. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteAbsencesNotes",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Justificantes",
+            "title": "Exportar justificantes",
+            "description": "Permite exportar justificantes de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportAbsencesNotes",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Ver panel administrativo de turnos",
+            "description": "Permite acceder a la vista global detallada de turnos. Permiso propio de administradores y gestores.",
+            "name": "viewShiftsPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Ver turnos",
+            "description": "Permite obtener un listado de los turnos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewShifts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Crear turnos",
+            "description": "Permite crear turnos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createShifts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Editar turnos",
+            "description": "Permite editar turnos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editShifts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Eliminar turnos",
+            "description": "Permite eliminar turnos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteShifts",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Turnos",
+            "title": "Importar turnos",
+            "description": "Permite importar turnos. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "importShifts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Turnos",
+            "title": "Exportar turnos",
+            "description": "Permite exportar turnos de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportShifts",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Ver panel administrativo de jornadas laborales",
+            "description": "Permite acceder a la vista global detallada de jornadas laborales. Permiso propio de administradores y gestores.",
+            "name": "viewWorkDaysPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Ver jornadas laborales",
+            "description": "Permite obtener un listado de las jornadas laborales. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewWorkDays",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Crear jornadas laborales",
+            "description": "Permite crear jornadas laborales. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "createWorkDays",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Editar jornadas laborales",
+            "description": "Permite editar jornadas laborales. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "editWorkDays",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Eliminar jornadas laborales",
+            "description": "Permite eliminar jornadas laborales. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "deleteWorkDays",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Jornadas laborales",
+            "title": "Exportar jornadas laborales",
+            "description": "Permite exportar jornadas laborales de forma masiva. Permiso usualmente atributo a administradores y gestores de la aplicación.",
+            "name": "exportWorkDays",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Nóminas",
+            "title": "Ver panel administrativo de nóminas",
+            "description": "Permite obtener un listado de las jornadas laborales. Permiso utilizado por administradores y gestores. Permiso con amplio alcance.",
+            "name": "viewPayrollPanel",
+            "roles": "Administrator, HR Manager, Human Resources"
+        },
+        {
+            "module": "Administración",
+            "title": "Ver el panel de administración",
+            "description": "Permite visualizar el dashboard de administrador el cual contiene las métricas de los empleados, fichajes, absentismos, vacaciones, etc.",
+            "name": "viewAdminDashboard",
+            "roles": "Administrator, HR Manager"
+        },
+        {
+            "module": "Brevo",
+            "title": "Ver el panel administrativo de plantillas",
+            "description": "Permite visualizar el listado de plantillas utilizado en Brevo y administrado por los diseñadores sin necesidad de ingresar en la app.",
+            "name": "viewBrevoDashboard",
+            "roles": "Administrator, HR Manager, Developer"
+        },
+        {
+            "module": "Permisos",
+            "title": "Acceder panel administración",
+            "description": "Acceder al panel de administración",
+            "name": "adminAccess"
+        },
+        {
+            "module": "Permisos",
+            "title": "Gestionar usuarios del sistema",
+            "description": "Permite gestionar usuarios del sistema, incluyendo la creación, edición, visualización y eliminación de usuarios.",
+            "name": "adminUsersManage"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar niveles de stock por centro",
+            "description": "Permite visualizar los niveles de stock por centro, incluyendo cantidades disponibles y alertas de stock bajo.",
+            "name": "stockView"
+        },
+        {
+            "module": "Permisos",
+            "title": "Modificar los niveles mínimos/máximos de stock",
+            "description": "Permite modificar los niveles mínimos/máximos de stock para garantizar un inventario óptimo.\n",
+            "name": "stockUpdate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Añadir stock al inventario",
+            "description": "Permite añadir nuevas unidades de stock al inventario, ya sea por recepción de mercancía o ajustes.",
+            "name": "stockAdd"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar el historial de movimientos de stock",
+            "description": "Permite visualizar el historial completo de movimientos de stock, como entradas, salidas y ajustes.",
+            "name": "stockViewHistory"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar las operaciones de stock",
+            "description": "Permite visualizar todas las operaciones de stock, como recuentos, ajustes y transferencias internas.",
+            "name": "operationsView"
+        },
+        {
+            "module": "Permisos",
+            "title": "Crear cualquier operación de stock",
+            "description": "Permite crear nuevas operaciones de stock, como ajustes manuales o recuentos de inventario.",
+            "name": "operationsCreate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Actualizar operaciones de stock (antes de la aprobación)",
+            "description": "Permite actualizar operaciones de stock existentes antes de su aprobación final.",
+            "name": "operationsUpdate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar operaciones de stock",
+            "description": " ",
+            "name": "operationsDelete"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar los pedidos",
+            "description": "Permite visualizar todos los pedidos realizados a proveedores, incluyendo su estado y detalles.",
+            "name": "ordersView"
+        },
+        {
+            "module": "Permisos",
+            "title": "Crear pedidos",
+            "description": "Permite crear nuevos pedidos a proveedores para reabastecer el inventario.",
+            "name": "ordersCreate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Actualizar pedidos",
+            "description": "Permite actualizar los detalles de pedidos existentes antes de su aprobación o envío.",
+            "name": "ordersUpdate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar pedidos",
+            "description": "Permite eliminar pedidos en estado de borrador o que aún no han sido procesados.",
+            "name": "ordersDelete"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar traspasos entre centros",
+            "description": "Permite visualizar los traspasos de inventario entre diferentes centros o ubicaciones.",
+            "name": "transfersView"
+        },
+        {
+            "module": "Permisos",
+            "title": "Crear traspasos entre centros",
+            "description": "Permite crear nuevos traspasos de inventario entre centros para equilibrar niveles de stock.",
+            "name": "transfersCreate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Actualizar traspasos (antes de la aprobación)",
+            "description": "Permite actualizar los detalles de traspasos antes de su aprobación o ejecución.",
+            "name": "transfersUpdate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar traspasos (borradores)",
+            "description": "Permite eliminar traspasos en estado de borrador o que aún no han sido procesados.",
+            "name": "transfersDelete"
+        },
+        {
+            "module": "Permisos",
+            "title": "Visualizar las incidencias de inventario",
+            "description": "Permite visualizar todas las incidencias relacionadas con el inventario, como pérdidas o daños.",
+            "name": "incidentsView"
+        },
+        {
+            "module": "Permisos",
+            "title": "Crear incidencias (independientes o vinculadas)",
+            "description": "Permite registrar nuevas incidencias de inventario, ya sean independientes o vinculadas a operaciones.",
+            "name": "incidentsCreate\t"
+        },
+        {
+            "module": "Permisos",
+            "title": "Actualizar incidencias (descripción, prioridad)",
+            "description": "Permite actualizar los detalles de incidencias existentes, como su descripción o prioridad.",
+            "name": "incidentsUpdate"
+        },
+        {
+            "module": "Permisos",
+            "title": "Eliminar incidencias",
+            "description": "Permite eliminar incidencias registradas que ya no sean relevantes o que hayan sido resueltas.",
+            "name": "incidentsDelete"
+        }
+    ]
+}

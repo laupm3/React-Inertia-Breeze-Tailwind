@@ -1,0 +1,1 @@
+import{o as p,u as n,s,n as m,a as e,b as o}from"./types-BZmDMmQb.js";const l=a=>p({id:m(e({message:a("dialog.id")})),nombre:s().nonempty({message:a("dialog.nombre")}),manager_id:n([e(),o()]).refine(i=>i!==null,{message:a("dialog.manager")}),adjunto_id:n([e(),o()]),descripcion:s().optional(),parent_department_id:n([e(),o()]).optional()});export{l as default};

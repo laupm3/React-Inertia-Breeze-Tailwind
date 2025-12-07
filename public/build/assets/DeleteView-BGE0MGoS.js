@@ -1,0 +1,1 @@
+import{j as l}from"./app-fwyInB3c.js";import{useDataHandler as s}from"./DataHandlerContext-Bct603ZG.js";import{useView as m}from"./ViewContext-D18BsCMP.js";function f(){const{destroyView:n,handleDestroyView:o,DeleteViewComponent:t}=m(),{deleteItem:r}=s(),{open:i,model:e}=n;return!e||!t?null:l.jsx(t,{model:e,open:i,onOpenChange:()=>o(e),onDelete:r})}export{f as default};

@@ -1,0 +1,39 @@
+{
+    "QuickAccess": {
+        "title": "Quick Access",
+        "documentationTitle": "Documentation",
+        "documentationDescription": "Access user guides and company policies.",
+        "onboardingTitle": "Onboarding",
+        "onboardingDescription": "Manage new employee onboarding process.",
+        "payrollTitle": "Payroll",
+        "payrollDescription": "View and manage payroll details.",
+        "vacationsTitle": "Vacations",
+        "vacationsDescription": "Check and request vacation days."
+    },
+    "ClockIn": {
+        "goodMorning": "Good morning",
+        "webDeveloper": "Web Developer",
+        "hoursRemaining": "Hours remaining",
+        "entry": "Entry",
+        "exit": "Exit",
+        "clockIn": "Clock In",
+        "clockOut": "Clock Out",
+        "pauseReminder": "Don't forget you paused your shift!"
+    },
+    "Clock": {
+        "pause": "Paused",
+        "working": "Working",
+        "entrance": "Start Clock In",
+        "finish": "Finish"
+    },
+    "Vacation": {
+        "nonDefined": "Not defined",
+        "accepted": "Accepted",
+        "delayed": "Delayed",
+        "rejected": "Rejected",
+        "solicitationError": "Error in request",
+        "daysRemaining": "Days remaining",
+        "requestVacation": "Request Vacation",
+        "requestPermissions": "Request Permissions"
+    }
+}

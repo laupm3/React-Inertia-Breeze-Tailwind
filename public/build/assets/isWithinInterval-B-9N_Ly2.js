@@ -1,0 +1,1 @@
+import{t as e}from"./toDate-qOSwr3PX.js";function m(n){const t=e(n);return t.setHours(23,59,59,999),t}function u(n,t){const s=+e(n),[o,r]=[+e(t.start),+e(t.end)].sort((i,a)=>i-a);return s>=o&&s<=r}export{m as e,u as i};

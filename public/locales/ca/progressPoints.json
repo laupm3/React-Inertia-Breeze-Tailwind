@@ -1,0 +1,13 @@
+{
+    "VacationRequest.startDate": "Data d'inici",
+    "VacationRequest.endDate": "Data de finalització",
+    "VacationRequest.partialDay": "Dia parcial",
+    "VacationRequest.confirmRequest": "Confirmar sol·licitud",
+    "VacationRequest.requestedVacations": "Sol·licituds de vacances",
+    "VacationRequest.aprovedByBoss": "Aprovat pel líder",
+    "VacationRequest.aprovedByHR": "Aprovat per RRHH",
+    "VacationRequest.aprovedEnjoys": "Aprovat, gaudeix de les teves vacances!",
+    "VacationRequest.viewHistory": "Veure historial de vacances",
+    "VacationRequest.pendingApproval": "Pendent d'aprovació",
+    "VacationRequest.vacationsNonSolicited": "Vacances no sol·licitades"
+}

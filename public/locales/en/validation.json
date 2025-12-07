@@ -1,0 +1,18 @@
+{
+    "email": {
+        "title": "Email",
+        "placeholder": "Enter your email",
+        "required": "Email is required",
+        "min": "Email must be at least 6 characters long",
+        "max": "Email must not exceed 50 characters",
+        "invalid": "Email must be valid"
+    },
+    "password": {
+        "title": "Password",
+        "placeholder": "Enter your password",
+        "required": "Password is required",
+        "min": "Password must be at least 8 characters long",
+        "max": "Password must not exceed 50 characters",
+        "invalid": "Password must contain at least one letter and one number"
+    }
+}

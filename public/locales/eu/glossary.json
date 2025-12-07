@@ -1,0 +1,10 @@
+{
+    "login": "Hasi saioa",
+    "language": "Hizkuntza",
+    "theme": {
+        "title": "Gaia",
+        "light": "Modu argia",
+        "dark": "Modu iluna",
+        "system": "Sistemaren gaia"
+    }
+}

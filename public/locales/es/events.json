@@ -1,0 +1,28 @@
+{
+    "rrhh": "Recursos Humanos",
+    "department": "Departamento",
+    "group": "Grupo",
+    "enterprise": "Empresa",
+    "private": "Privado",
+    "pleaseSelectEventType": "Por favor, selecciona un tipo de evento",
+    "noUpcomingEvents": "No hay eventos próximos",
+    "pastEvents": "Eventos pasados",
+    "newEvent": "Nuevo evento",
+    "title": "Título",
+    "description": "Descripción",
+    "share": "Compartir",
+    "searchUsers": "Buscar usuarios",
+    "selected": "Seleccionados",
+    "createEvent": "Crear evento",
+    "searchByTitle": "Buscar por título",
+    "notifications": "Notificaciones",
+    "seeAll": "Ver todo",
+    "nonEspecificJob": "Trabajo no especificado",
+    "seeOnCalendar": "Ver todos los mensajes",
+    "seeNotification": "Ver notificación",
+    "notificationBlock": "Las notificaciones están bloqueadas. Por favor, habilítalas en la configuración de tu navegador.",
+    "notificationDenied": "No se han concedido permisos para mostrar notificaciones.",
+    "notificationNotSupported": "Tu navegador no soporta notificaciones del sistema.",
+    "yooptaAclaratiton": "Añade distintos elementos con la tecla /"
+
+}

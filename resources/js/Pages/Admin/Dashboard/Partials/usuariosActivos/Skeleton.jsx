@@ -1,0 +1,18 @@
+import { Skeleton as SkeletonBlock } from "@/Components/ui/skeleton";
+
+function Skeleton() {
+  return (
+    <section className='flex flex-col gap-11'>
+      <SkeletonBlock className="h-6 w-[250px]" />
+
+      <div className='flex w-full items-center justify-center'>
+        <SkeletonBlock className="h-48 w-48 rounded-full" />
+      </div>
+
+      <SkeletonBlock className="h-4 w-[350px]" />
+
+    </section>
+  )
+}
+
+export default Skeleton

@@ -1,0 +1,23 @@
+export const extIcons = {
+
+  pdf: '@/../images/ext/PDF.svg',
+  pdf_darkmode: '@/../images/ext/PDF_DarkMode.svg',
+  zip: '@/../images/ext/ZIP.svg',
+  zip_darkmode: '@/../images/ext/ZIP_DarkMode.svg',
+  doc: '@/../images/ext/DOC.svg',
+  doc_darkmode: '@/../images/ext/DOC_DarkMode.svg',
+  docx: '@/../images/ext/DOCX.svg',
+  docx_darkmode: '@/../images/ext/DOCX_DarkMode.svg',
+  xls: '@/../images/ext/XLS.svg',
+  xls_darkmode: '@/../images/ext/XLS_DarkMode.svg',
+  xlsx: '@/../images/ext/XLSX.svg',
+  xlsx_darkmode: '@/../images/ext/XLSX_DarkMode.svg',
+  jpg: '@/../images/ext/JPG.svg',
+  jpg_darkmode: '@/../images/ext/JPG_DarkMode.svg',
+  png: '@/../images/ext/PNG.svg',
+  png_darkmode: '@/../images/ext/PNG_DarkMode.svg',
+  webp: '@/../images/ext/WEBP.svg',
+  webp_darkmode: '@/../images/ext/WEBP_DarkMode.svg',
+  csv: '@/../images/ext/CSV.svg',
+  csv_darkmode: '@/../images/ext/CSV_DarkMode.svg',
+};

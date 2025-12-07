@@ -1,0 +1,18 @@
+{
+    "email": {
+        "title": "Correo Electrónico",
+        "placeholder": "Escriba su correo electrónico",
+        "required": "El correo electrónico es obligatorio",
+        "min": "El correo electrónico debe tener al menos 6 caracteres",
+        "max": "El correo electrónico no debe tener más de 50 caracteres",
+        "invalid": "El correo electrónico debe ser válido"
+    },
+    "password": {
+        "title": "Contraseña",
+        "placeholder": "Escriba su contraseña",
+        "required": "La contraseña es obligatoria",
+        "min": "La contraseña debe tener al menos 8 caracteres",
+        "max": "La contraseña no debe tener más de 50 caracteres",
+        "invalid": "La contraseña debe tener al menos una letra y un número"
+    }
+}

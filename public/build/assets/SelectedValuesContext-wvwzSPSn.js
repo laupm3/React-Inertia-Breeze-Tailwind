@@ -1,0 +1,1 @@
+import{r as e,j as u}from"./app-fwyInB3c.js";const t=e.createContext(),c=()=>e.useContext(t),l=({children:s})=>{const[r,o]=e.useState([]);return u.jsx(t.Provider,{value:{selectedValues:r,setSelectedValues:o},children:s})};export{l as SelectedValuesProvider,c as useSelectedValues};

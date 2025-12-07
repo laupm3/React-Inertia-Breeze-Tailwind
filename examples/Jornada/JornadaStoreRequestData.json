@@ -1,0 +1,31 @@
+{
+    "name": "Turno de la tarde 40 horas",
+    "description": "Turno de la tarde de 40 horas semanales de lunes a viernes de 14:00 a 22:00",
+    "weekdays": [
+        {
+            "turno_id": 2,
+            "modalidad_id": 1,
+            "weekday_number": 1
+        },
+        {
+            "turno_id": 2,
+            "modalidad_id": 2,
+            "weekday_number": 2
+        },
+        {
+            "turno_id": 2,
+            "modalidad_id": 1,
+            "weekday_number": 3
+        },
+        {
+            "turno_id": 2,
+            "modalidad_id": 2,
+            "weekday_number": 4
+        },
+        {
+            "turno_id": 2,
+            "modalidad_id": 1,
+            "weekday_number": 5
+        }
+    ]
+}

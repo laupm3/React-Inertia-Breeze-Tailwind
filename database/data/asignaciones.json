@@ -1,0 +1,202 @@
+[
+    {
+        "nombre": "Software Engineer",
+        "descripcion": "Designs, develops, and maintains software applications."
+    },
+    {
+        "nombre": "Data Scientist",
+        "descripcion": "Analyzes and interprets complex data to help companies make decisions."
+    },
+    {
+        "nombre": "Product Manager",
+        "descripcion": "Oversees the development and delivery of products."
+    },
+    {
+        "nombre": "UX Designer",
+        "descripcion": "Enhances user satisfaction by improving the usability of a product."
+    },
+    {
+        "nombre": "DevOps Engineer",
+        "descripcion": "Works on the development and operations of software systems."
+    },
+    {
+        "nombre": "System Administrator",
+        "descripcion": "Manages and maintains computer systems and networks."
+    },
+    {
+        "nombre": "Database Administrator",
+        "descripcion": "Responsible for the performance, integrity, and security of databases."
+    },
+    {
+        "nombre": "Network Engineer",
+        "descripcion": "Designs and implements computer networks."
+    },
+    {
+        "nombre": "Security Analyst",
+        "descripcion": "Protects an organization's computer systems and networks."
+    },
+    {
+        "nombre": "Cloud Architect",
+        "descripcion": "Designs and manages cloud computing architecture."
+    },
+    {
+        "nombre": "Mobile Developer",
+        "descripcion": "Creates applications for mobile devices."
+    },
+    {
+        "nombre": "Frontend Developer",
+        "descripcion": "Develops the user-facing part of websites and applications."
+    },
+    {
+        "nombre": "Backend Developer",
+        "descripcion": "Works on server-side development and database management."
+    },
+    {
+        "nombre": "Full Stack Developer",
+        "descripcion": "Handles both frontend and backend development."
+    },
+    {
+        "nombre": "QA Engineer",
+        "descripcion": "Ensures the quality of software through testing."
+    },
+    {
+        "nombre": "Technical Support Specialist",
+        "descripcion": "Provides technical assistance to users."
+    },
+    {
+        "nombre": "IT Manager",
+        "descripcion": "Oversees the IT department and its operations."
+    },
+    {
+        "nombre": "Project Manager",
+        "descripcion": "Plans and oversees projects to ensure they are completed on time."
+    },
+    {
+        "nombre": "Business Analyst",
+        "descripcion": "Analyzes business needs and recommends solutions."
+    },
+    {
+        "nombre": "Scrum Master",
+        "descripcion": "Facilitates Scrum practices in Agile development."
+    },
+    {
+        "nombre": "IT Consultant",
+        "descripcion": "Provides expert advice on IT solutions."
+    },
+    {
+        "nombre": "Solutions Architect",
+        "descripcion": "Designs complex IT systems and solutions."
+    },
+    {
+        "nombre": "Data Analyst",
+        "descripcion": "Interprets data to help make business decisions."
+    },
+    {
+        "nombre": "Machine Learning Engineer",
+        "descripcion": "Develops algorithms that enable machines to learn."
+    },
+    {
+        "nombre": "AI Researcher",
+        "descripcion": "Conducts research to advance artificial intelligence."
+    },
+    {
+        "nombre": "Blockchain Developer",
+        "descripcion": "Develops and maintains blockchain technology."
+    },
+    {
+        "nombre": "Cybersecurity Specialist",
+        "descripcion": "Protects systems and networks from cyber threats."
+    },
+    {
+        "nombre": "Game Developer",
+        "descripcion": "Creates video games for various platforms."
+    },
+    {
+        "nombre": "Embedded Systems Engineer",
+        "descripcion": "Develops software for embedded systems."
+    },
+    {
+        "nombre": "Hardware Engineer",
+        "descripcion": "Designs and develops computer hardware."
+    },
+    {
+        "nombre": "Site Reliability Engineer",
+        "descripcion": "Ensures the reliability and performance of software systems."
+    },
+    {
+        "nombre": "Technical Writer",
+        "descripcion": "Creates technical documentation and manuals."
+    },
+    {
+        "nombre": "IT Auditor",
+        "descripcion": "Evaluates the effectiveness of IT systems and controls."
+    },
+    {
+        "nombre": "Network Administrator",
+        "descripcion": "Maintains and manages network infrastructure."
+    },
+    {
+        "nombre": "Penetration Tester",
+        "descripcion": "Tests systems for security vulnerabilities."
+    },
+    {
+        "nombre": "Robotics Engineer",
+        "descripcion": "Designs and builds robotic systems."
+    },
+    {
+        "nombre": "Sales Engineer",
+        "descripcion": "Combines technical knowledge with sales skills."
+    },
+    {
+        "nombre": "SEO Specialist",
+        "descripcion": "Optimizes websites to rank higher in search engine results."
+    },
+    {
+        "nombre": "Web Developer",
+        "descripcion": "Builds and maintains websites."
+    },
+    {
+        "nombre": "E-commerce Specialist",
+        "descripcion": "Manages online sales and marketing."
+    },
+    {
+        "nombre": "Digital Marketing Specialist",
+        "descripcion": "Promotes products or services through digital channels."
+    },
+    {
+        "nombre": "Content Manager",
+        "descripcion": "Oversees content creation and strategy."
+    },
+    {
+        "nombre": "Graphic Designer",
+        "descripcion": "Creates visual content for various media."
+    },
+    {
+        "nombre": "IT Trainer",
+        "descripcion": "Provides training on IT systems and software."
+    },
+    {
+        "nombre": "Help Desk Technician",
+        "descripcion": "Provides technical support to end users."
+    },
+    {
+        "nombre": "IT Support Analyst",
+        "descripcion": "Resolves IT issues and provides support."
+    },
+    {
+        "nombre": "Cloud Engineer",
+        "descripcion": "Develops and manages cloud infrastructure."
+    },
+    {
+        "nombre": "Big Data Engineer",
+        "descripcion": "Handles large-scale data processing and analysis."
+    },
+    {
+        "nombre": "IoT Developer",
+        "descripcion": "Develops applications for Internet of Things devices."
+    },
+    {
+        "nombre": "AR/VR Developer",
+        "descripcion": "Creates augmented and virtual reality applications."
+    }
+]

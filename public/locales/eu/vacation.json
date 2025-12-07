@@ -1,0 +1,10 @@
+{
+    "Vacation.nonDefined": "Zehaztugabea",
+    "Vacation.accepted": "Onartua",
+    "Vacation.delayed": "Itxaronaldian",
+    "Vacation.rejected": "Baztertua",
+    "Vacation.solicitationError": "Eskabide errorea",
+    "Vacation.requestVacation": "Oporrak eskatu",
+    "Vacation.requestPermissions": "Baimenak eskatu",
+    "Vacation.daysRemaining": "Gainerako egunak"
+}

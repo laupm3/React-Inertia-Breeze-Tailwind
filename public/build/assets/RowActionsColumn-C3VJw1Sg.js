@@ -1,0 +1,1 @@
+import{j as i}from"./app-fwyInB3c.js";import{R as o}from"./RowActionsTrigger-C2PXJFNn.js";const l={id:"actions",title:"Acciones",enableHiding:!1,enableSorting:!1,enableFiltering:!1,cell:({row:e})=>i.jsx(o,{model:e.original})};export{l as r};

@@ -1,0 +1,13 @@
+{
+    "VacationRequest.startDate": "Hasiera data",
+    "VacationRequest.endDate": "Amaiera data",
+    "VacationRequest.partialDay": "Egun partziala",
+    "VacationRequest.confirmRequest": "Eskaera berretsi",
+    "VacationRequest.requestedVacations": "Opor eskaerak",
+    "VacationRequest.aprovedByBoss": "Liderrak onartua",
+    "VacationRequest.aprovedByHR": "Giza Baliabideek onartua",
+    "VacationRequest.aprovedEnjoys": "Onartua, gozatu zure oporraldia!",
+    "VacationRequest.viewHistory": "Opor historiala ikusi",
+    "VacationRequest.pendingApproval": "Onarpenaren zain",
+    "VacationRequest.vacationsNonSolicited": "Eskatu gabeko oporrak"
+}

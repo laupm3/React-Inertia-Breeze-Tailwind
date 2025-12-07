@@ -1,0 +1,37 @@
+{
+    "VacationRequest": {
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "partialDay": "Partial Day",
+        "confirmRequest": "Confirm Request",
+        "requestedVacations": "Requested Vacations",
+        "aprovedByBoss": "Approved by Leader",
+        "aprovedByHR": "Approved by HR",
+        "aprovedEnjoys": "Approved, enjoy your vacation!",
+        "viewHistory": "View Vacation History",
+        "pendingApproval": "Pending Approval",
+        "vacationsNonSolicited": "Non-Solicited Vacations",
+        "remember": "Remember",
+        "warning": "To ensure the effective processing of the permit, it is requested to submit it with 15 working days' notice. Extemporaneous requests will be subject to evaluation."
+    },
+
+    "Vacation": {
+        "nonDefined": "Not Defined",
+        "accepted": "Accepted",
+        "delayed": "Pending",
+        "rejected": "Rejected",
+        "solicitationError": "Request Error",
+        "requestVacation": "Request Vacation",
+        "requestPermissions": "Request Permissions",
+        "daysRemaining": "Days Remaining"
+    },
+    "Leaves": {
+        "information": "Information",
+        "typeOfLeave": "Type of Leave",
+        "placeholder": "Describe the reason for your leave",
+        "note": "Note",
+        "confirmRequest": "Request Leave",
+        "emptyHistory": "No leave requests have been made"
+    }
+}
+

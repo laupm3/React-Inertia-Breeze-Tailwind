@@ -1,0 +1,10 @@
+{
+    "Vacation.nonDefined": "Not defined",
+    "Vacation.accepted": "Accepted",
+    "Vacation.delayed": "Pending",
+    "Vacation.rejected": "Rejected",
+    "Vacation.solicitationError": "Request error",
+    "Vacation.requestVacation": "Request vacation",
+    "Vacation.requestPermissions": "Request permissions",
+    "Vacation.daysRemaining": "Days remaining"
+}

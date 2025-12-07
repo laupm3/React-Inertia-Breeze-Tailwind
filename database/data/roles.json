@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Super Admin",
+        "description": "Super Admin has access to all the resources and can perform any operation on them."
+    },
+    {
+        "name": "Administrator",
+        "description": "Administrator has access to most of the resources and can manage user accounts, settings, and other administrative tasks."
+    },
+    {
+        "name": "Developer",
+        "description": "Developer has access to development resources and can manage code, deploy applications, and perform other development-related tasks."
+    },
+    {
+        "name": "Human Resources",
+        "description": "Human Resources can manage employee records, handle recruitment processes, and oversee employee relations and benefits."
+    },
+    {
+        "name": "HR Manager",
+        "description": "HR Manager oversees the Human Resources department, manages HR staff, and ensures compliance with labor laws and company policies."
+    },
+    {
+        "name": "Department Manager",
+        "description": "Department Manager is responsible for managing a specific department, overseeing staff, and ensuring departmental goals are met."
+    },
+    {
+        "name": "Department Assistant",
+        "description": "Department Assistant supports the Department Manager with administrative tasks, scheduling, and coordination of departmental activities."
+    },
+    {
+        "name": "User",
+        "description": "User has access to basic resources and can perform standard operations within their permissions."
+    },
+    {
+        "name": "Guest",
+        "description": "Guest has limited access to resources and can only view certain information without making any changes."
+    }
+]

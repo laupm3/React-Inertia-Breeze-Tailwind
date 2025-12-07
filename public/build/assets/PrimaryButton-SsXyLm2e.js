@@ -1,0 +1,1 @@
+import{j as m}from"./app-fwyInB3c.js";import{B as s}from"./button-Blwr-A5N.js";function i({className:t="",disabled:o,children:r,...e}){return m.jsx(s,{...e,className:"bg-custom-orange hover:bg-custom-blue dark:hover:bg-custom-white text-white dark:text-custom-blackSemi font-semibold rounded-full py-2 px-4 w-full "+t,disabled:o,children:r})}export{i as P};

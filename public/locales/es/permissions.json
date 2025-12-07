@@ -1,0 +1,906 @@
+{
+    "viewAdminDashboard": {
+        "title": "Ver el panel de administración",
+        "description": "Permite visualizar el dashboard de administrador de la aplicación."
+    },
+    "viewUsersPanel": {
+        "title": "Ver el panel de usuarios",
+        "description": "Permite visualizar el panel de usuarios de la aplicación."
+    },
+    "viewTeamsPanel": {
+        "title": "Ver el panel de equipos",
+        "description": "Permite visualizar el panel de administración de los equipos."
+    },
+    "viewAdminFolders": {
+        "title": "Ver las carpetas de administración",
+        "description": "Visualización de la página principal de documentos, home avanzada para usuarios con más permisos. Ej: administradores y recursos humanos."
+    },
+    "viewEmployeesPanel": {
+        "title": "Ver el panel de empleados",
+        "description": "Permite visualizar el panel de administración de empleados."
+    },
+    "viewCalendar": {
+        "title": "Ver calendario",
+        "description": "Permite visualizar el calendario de eventos."
+    },
+    "createCalendarEvent": {
+        "title": "Crear eventos en calendario",
+        "description": "Permite crear eventos en el calendario."
+    },
+    "editCalendarEvent": {
+        "title": "Editar eventos en calendario",
+        "description": "Permite editar eventos en el calendario."
+    },
+    "deleteCalendarEvent": {
+        "title": "Eliminar eventos en calendario",
+        "description": "Permite eliminar eventos en el calendario."
+    },
+    "viewFoldersStandardLayout": {
+        "title": "Ver diseño estándar de carpetas",
+        "description": "Visualización de la página principal de documentos, home básica para la mayoría de usuarios."
+    },
+    "viewFoldersTrashBin": {
+        "title": "Ver papelera de carpetas",
+        "description": "Visualización de la papelera de reciclaje."
+    },
+    "viewSharedFolders": {
+        "title": "Ver carpetas compartidas",
+        "description": "Visualización de los documentos compartidos."
+    },
+    "viewFiles": {
+        "title": "Ver archivos",
+        "description": "Permite visualizar los archivos."
+    },
+    "createFiles": {
+        "title": "Crear archivos",
+        "description": "Permite subir archivos."
+    },
+    "editFiles": {
+        "title": "Editar archivos",
+        "description": "Permite editar archivos."
+    },
+    "deleteFiles": {
+        "title": "Eliminar archivos",
+        "description": "Permite eliminar archivos."
+    },
+    "downloadFiles": {
+        "title": "Descargar archivos",
+        "description": "Permite descargar archivos."
+    },
+    "shareFiles": {
+        "title": "Compartir archivos",
+        "description": "Permite compartir archivos."
+    },
+    "hideFiles": {
+        "title": "Ocultar archivos",
+        "description": "Permite ocultar archivos."
+    },
+    "criticalValueFiles": {
+        "title": "Archivos de valor crítico",
+        "description": "Permite acceder a los archivos críticos."
+    },
+    "highValueFiles": {
+        "title": "Archivos de alto valor",
+        "description": "Permite acceder a los archivos de alto valor."
+    },
+    "mediumValueFiles": {
+        "title": "Archivos de valor medio",
+        "description": "Permite acceder a los archivos de valor medio."
+    },
+    "lowValueFiles": {
+        "title": "Archivos de bajo valor",
+        "description": "Permite acceder a los archivos de bajo valor."
+    },
+    "viewFileExtensions": {
+        "title": "Ver extensiones de archivos",
+        "description": "Permite visualizar las extensiones de los archivos."
+    },
+    "createFileExtensions": {
+        "title": "Crear extensiones de archivos",
+        "description": "Permite crear extensiones de archivos."
+    },
+    "editFileExtensions": {
+        "title": "Editar extensiones de archivos",
+        "description": "Permite editar extensiones de archivos."
+    },
+    "deleteFileExtensions": {
+        "title": "Eliminar extensiones de archivos",
+        "description": "Permite eliminar extensiones de archivos."
+    },
+    "viewUsers": {
+        "title": "Ver usuarios",
+        "description": "Permite visualizar los usuarios."
+    },
+    "createUsers": {
+        "title": "Crear usuarios",
+        "description": "Permite crear usuarios."
+    },
+    "editUsers": {
+        "title": "Editar usuarios",
+        "description": "Permite editar usuarios."
+    },
+    "deleteUsers": {
+        "title": "Eliminar usuarios",
+        "description": "Permite eliminar usuarios."
+    },
+    "viewUserProfile": {
+        "title": "Ver perfil de usuario",
+        "description": "Permite visualizar el perfil de usuario."
+    },
+    "editUserProfile": {
+        "title": "Editar perfil de usuario",
+        "description": "Permite editar el perfil de usuario."
+    },
+    "addProfilePicture": {
+        "title": "Añadir foto de perfil",
+        "description": "Permite añadir una foto de perfil."
+    },
+    "removeProfilePicture": {
+        "title": "Eliminar foto de perfil",
+        "description": "Permite eliminar la foto de perfil."
+    },
+    "viewUserFiles": {
+        "title": "Ver archivos de usuario",
+        "description": "Permite visualizar los archivos del usuario."
+    },
+    "viewUserSessions": {
+        "title": "Ver sesiones de usuario",
+        "description": "Permite visualizar las sesiones del usuario."
+    },
+    "activate2FAForUser": {
+        "title": "Activar 2FA para usuario",
+        "description": "Permite activar la autenticación de dos factores para el usuario."
+    },
+    "deactivate2FAForUser": {
+        "title": "Desactivar 2FA para usuario",
+        "description": "Permite desactivar la autenticación de dos factores para el usuario."
+    },
+    "viewTeams": {
+        "title": "Ver equipos",
+        "description": "Permite visualizar los equipos."
+    },
+    "createTeams": {
+        "title": "Crear equipos",
+        "description": "Permite crear equipos."
+    },
+    "editTeams": {
+        "title": "Editar equipos",
+        "description": "Permite editar equipos."
+    },
+    "deleteTeams": {
+        "title": "Eliminar equipos",
+        "description": "Permite eliminar equipos."
+    },
+    "addUsersToTeams": {
+        "title": "Añadir usuarios a equipos",
+        "description": "Permite añadir usuarios a los equipos."
+    },
+    "invitateUsersToTeams": {
+        "title": "Invitar usuarios a equipos",
+        "description": "Permite invitar usuarios a los equipos."
+    },
+    "removeUsersFromTeams": {
+        "title": "Eliminar usuarios de equipos",
+        "description": "Permite eliminar usuarios de los equipos."
+    },
+    "viewTeamsWhereUserIsMember": {
+        "title": "Ver equipos donde el usuario es miembro",
+        "description": "Permite ver los equipos donde el usuario es miembro."
+    },
+    "viewTeamMembers": {
+        "title": "Ver miembros de equipo",
+        "description": "Permite visualizar los miembros de los equipos."
+    },
+    "addUsersToOwnTeam": {
+        "title": "Añadir usuarios a equipo propio",
+        "description": "Permite añadir usuarios a su propio equipo."
+    },
+    "invitateUsersToOwnTeam": {
+        "title": "Invitar usuarios a equipo propio",
+        "description": "Permite invitar usuarios a su propio equipo."
+    },
+    "removeUsersFromOwnTeam": {
+        "title": "Eliminar usuarios de equipo propio",
+        "description": "Permite eliminar usuarios de su propio equipo."
+    },
+    "viewEmployees": {
+        "title": "Ver empleados",
+        "description": "Permite visualizar los empleados."
+    },
+    "createEmployees": {
+        "title": "Crear empleados",
+        "description": "Permite crear empleados."
+    },
+    "editEmployees": {
+        "title": "Editar empleados",
+        "description": "Permite editar empleados."
+    },
+    "deleteEmployees": {
+        "title": "Eliminar empleados",
+        "description": "Permite eliminar empleados."
+    },
+    "viewEmployeeTypes": {
+        "title": "Ver tipos de empleados",
+        "description": "Permite visualizar la sección de tipos de empleados."
+    },
+    "createEmployeeTypes": {
+        "title": "Crear tipos de empleados",
+        "description": "Permite crear tipos de empleados."
+    },
+    "editEmployeeTypes": {
+        "title": "Editar tipos de empleados",
+        "description": "Permite editar los tipos de empleados."
+    },
+    "deleteEmployeeTypes": {
+        "title": "Eliminar tipos de empleados",
+        "description": "Permite eliminar los tipos de empleados."
+    },
+    "viewEmployeeStatus": {
+        "title": "Ver estados de empleados",
+        "description": "Permite visualizar la sección de estados de los empleados."
+    },
+    "createEmployeeStatus": {
+        "title": "Crear estados de empleados",
+        "description": "Permite crear estados de los empleados."
+    },
+    "editEmployeeStatus": {
+        "title": "Editar estados de empleados",
+        "description": "Permite editar los estados de los empleados."
+    },
+    "deleteEmployeeStatus": {
+        "title": "Eliminar estados de empleados",
+        "description": "Permite eliminar los estados de los empleados."
+    },
+    "viewEmployeeTypeDocuments": {
+        "title": "Ver tipos de documentos de empleados",
+        "description": "Permite visualizar la sección de tipo de documentos de los empleados."
+    },
+    "createEmployeeTypeDocuments": {
+        "title": "Crear tipos de documentos de empleados",
+        "description": "Permite crear nuevos tipos de documentos de los empleados."
+    },
+    "editEmployeeTypeDocuments": {
+        "title": "Editar tipos de documentos de empleados",
+        "description": "Permite editar los tipos de documentos de los empleados."
+    },
+    "deleteEmployeeTypeDocuments": {
+        "title": "Eliminar tipos de documentos de empleados",
+        "description": "Permite eliminar los tipos de documentos de los empleados."
+    },
+    "viewEmployeeGender": {
+        "title": "Ver géneros de empleados",
+        "description": "Permite visualizar la sección de géneros de los empleados."
+    },
+    "createEmployeeGender": {
+        "title": "Crear géneros de empleados",
+        "description": "Permite crear nuevos tipos de género de los empleados."
+    },
+    "editEmployeeGender": {
+        "title": "Editar géneros de empleados",
+        "description": "Permite editar los tipos de género de los empleados."
+    },
+    "deleteEmployeeGender": {
+        "title": "Eliminar géneros de empleados",
+        "description": "Permite eliminar los tipos de género de los empleados."
+    },
+    "viewAddresses": {
+        "title": "Ver direcciones",
+        "description": "Permite visualizar el panel de direcciones."
+    },
+    "createAddresses": {
+        "title": "Crear direcciones",
+        "description": "Permite crear direcciones."
+    },
+    "editAddresses": {
+        "title": "Editar direcciones",
+        "description": "Permite editar direcciones."
+    },
+    "deleteAddresses": {
+        "title": "Eliminar direcciones",
+        "description": "Permite eliminar direcciones."
+    },
+    "viewMunicipios": {
+        "title": "Ver municipios",
+        "description": "Permite visualizar los municipios."
+    },
+    "createMunicipios": {
+        "title": "Crear municipios",
+        "description": "Permite crear municipios."
+    },
+    "editMunicipios": {
+        "title": "Editar municipios",
+        "description": "Permite editar municipios."
+    },
+    "deleteMunicipios": {
+        "title": "Eliminar municipios",
+        "description": "Permite eliminar municipios."
+    },
+    "viewProvincias": {
+        "title": "Ver provincias",
+        "description": "Permite visualizar las provincias."
+    },
+    "createProvincias": {
+        "title": "Crear provincias",
+        "description": "Permite crear provincias."
+    },
+    "editProvincias": {
+        "title": "Editar provincias",
+        "description": "Permite editar provincias."
+    },
+    "deleteProvincias": {
+        "title": "Eliminar provincias",
+        "description": "Permite eliminar provincias."
+    },
+    "viewRoles": {
+        "title": "Ver roles",
+        "description": "Permite visualizar los roles."
+    },
+    "createRoles": {
+        "title": "Crear roles",
+        "description": "Permite crear roles."
+    },
+    "editRoles": {
+        "title": "Editar roles",
+        "description": "Permite editar roles."
+    },
+    "deleteRoles": {
+        "title": "Eliminar roles",
+        "description": "Permite eliminar roles."
+    },
+    "viewPermissions": {
+        "title": "Ver permisos",
+        "description": "Permite visualizar los permisos."
+    },
+    "createPermissions": {
+        "title": "Crear permisos",
+        "description": "Permite crear permisos."
+    },
+    "editPermissions": {
+        "title": "Editar permisos",
+        "description": "Permite editar permisos."
+    },
+    "deletePermissions": {
+        "title": "Eliminar permisos",
+        "description": "Permite eliminar permisos."
+    },
+    "viewPermissionsWhereRoleIsAssigned": {
+        "title": "Ver permisos asignados a roles",
+        "description": "Permite visualizar los permisos asignados a los roles."
+    },
+    "assignPermissionsToRoles": {
+        "title": "Asignar permisos a roles",
+        "description": "Permite asignar permisos a los roles."
+    },
+    "removePermissionsFromRoles": {
+        "title": "Eliminar permisos de roles",
+        "description": "Permite eliminar permisos de los roles."
+    },
+    "viewPermissionsWhereUserIsAssigned": {
+        "title": "Ver permisos asignados a usuarios",
+        "description": "Permite visualizar los permisos asignados a los usuarios."
+    },
+    "assignPermissionsToUsers": {
+        "title": "Asignar permisos a usuarios",
+        "description": "Permite asignar permisos a los usuarios."
+    },
+    "removePermissionsFromUsers": {
+        "title": "Eliminar permisos de usuarios",
+        "description": "Permite eliminar permisos de los usuarios."
+    },
+    "viewModules": {
+        "title": "Ver módulos",
+        "description": "Permite visualizar los módulos."
+    },
+    "createModules": {
+        "title": "Crear módulos",
+        "description": "Permite crear módulos."
+    },
+    "editModules": {
+        "title": "Editar módulos",
+        "description": "Permite editar módulos."
+    },
+    "deleteModules": {
+        "title": "Eliminar módulos",
+        "description": "Permite eliminar módulos."
+    },
+    "viewLinks": {
+        "title": "Ver enlaces",
+        "description": "Permite visualizar los enlaces."
+    },
+    "createLinks": {
+        "title": "Crear enlaces",
+        "description": "Permite crear enlaces."
+    },
+    "editLinks": {
+        "title": "Editar enlaces",
+        "description": "Permite editar enlaces."
+    },
+    "deleteLinks": {
+        "title": "Eliminar enlaces",
+        "description": "Permite eliminar enlaces."
+    },
+    "viewFestivos": {
+        "title": "Ver festivos",
+        "description": "Permite visualizar los festivos."
+    },
+    "createFestivos": {
+        "title": "Crear festivos",
+        "description": "Permite crear festivos."
+    },
+    "editFestivos": {
+        "title": "Editar festivos",
+        "description": "Permite editar festivos."
+    },
+    "deleteFestivos": {
+        "title": "Eliminar festivos",
+        "description": "Permite eliminar festivos."
+    },
+    "viewCompanies": {
+        "title": "Ver empresas",
+        "description": "Permite visualizar las empresas."
+    },
+    "createCompanies": {
+        "title": "Crear empresas",
+        "description": "Permite crear empresas."
+    },
+    "editCompanies": {
+        "title": "Editar empresas",
+        "description": "Permite editar empresas."
+    },
+    "deleteCompanies": {
+        "title": "Eliminar empresas",
+        "description": "Permite eliminar empresas."
+    },
+    "viewCenters": {
+        "title": "Ver centros",
+        "description": "Permite visualizar los centros."
+    },
+    "createCenters": {
+        "title": "Crear centros",
+        "description": "Permite crear centros."
+    },
+    "editCenters": {
+        "title": "Editar centros",
+        "description": "Permite editar centros."
+    },
+    "deleteCenters": {
+        "title": "Eliminar centros",
+        "description": "Permite eliminar centros."
+    },
+    "viewCenterStatus": {
+        "title": "Ver tipos de centros",
+        "description": "Permite visualizar los tipos de centros."
+    },
+    "createCenterStatus": {
+        "title": "Crear tipos de centros",
+        "description": "Permite crear tipos de centros."
+    },
+    "editCenterStatus": {
+        "title": "Editar tipos de centros",
+        "description": "Permite editar tipos de centros."
+    },
+    "deleteCenterStatus": {
+        "title": "Eliminar tipos de centros",
+        "description": "Permite eliminar tipos de centros."
+    },
+    "viewDepartments": {
+        "title": "Ver departamentos",
+        "description": "Permite visualizar los departamentos."
+    },
+    "createDepartments": {
+        "title": "Crear departamentos",
+        "description": "Permite crear departamentos."
+    },
+    "editDepartments": {
+        "title": "Editar departamentos",
+        "description": "Permite editar departamentos."
+    },
+    "deleteDepartments": {
+        "title": "Eliminar departamentos",
+        "description": "Permite eliminar departamentos."
+    },
+    "viewCentersDepartments": {
+        "title": "Ver departamentos de centros",
+        "description": "Permite visualizar los departamentos de los centros."
+    },
+    "createCentersDepartments": {
+        "title": "Crear departamentos de centros",
+        "description": "Permite crear departamentos de los centros."
+    },
+    "editCentersDepartments": {
+        "title": "Editar departamentos de centros",
+        "description": "Permite editar departamentos de los centros."
+    },
+    "deleteCentersDepartments": {
+        "title": "Eliminar departamentos de centros",
+        "description": "Permite eliminar departamentos de los centros."
+    },
+    "viewContracts": {
+        "title": "Ver contratos",
+        "description": "Permite visualizar los contratos."
+    },
+    "createContracts": {
+        "title": "Crear contratos",
+        "description": "Permite crear contratos."
+    },
+    "editContracts": {
+        "title": "Editar contratos",
+        "description": "Permite editar contratos."
+    },
+    "deleteContracts": {
+        "title": "Eliminar contratos",
+        "description": "Permite eliminar contratos."
+    },
+    "viewOwnContracts": {
+        "title": "Ver contratos propios",
+        "description": "Permite visualizar los contratos propios"
+    },
+    "viewContractTypes": {
+        "title": "Ver tipos de contratos",
+        "description": "Permite visualizar los tipos de contratos."
+    },
+    "createContractTypes": {
+        "title": "Crear tipos de contratos",
+        "description": "Permite crear tipos de contratos."
+    },
+    "editContractTypes": {
+        "title": "Editar tipos de contratos",
+        "description": "Permite editar tipos de contratos."
+    },
+    "deleteContractTypes": {
+        "title": "Eliminar tipos de contratos",
+        "description": "Permite eliminar tipos de contratos."
+    },
+    "viewAnnexes": {
+        "title": "Ver anexos",
+        "description": "Permite visualizar los anexos."
+    },
+    "createAnnexes": {
+        "title": "Crear anexos",
+        "description": "Permite crear anexos."
+    },
+    "editAnnexes": {
+        "title": "Editar anexos",
+        "description": "Permite editar anexos."
+    },
+    "deleteAnnexes": {
+        "title": "Eliminar anexos",
+        "description": "Permite eliminar anexos."
+    },
+    "viewOwnAnnexes": {
+        "title": "Ver anexos propios",
+        "description": "Permite visualizar los anexos propios"
+    },
+    "viewAssignments": {
+        "title": "Ver asignaciones",
+        "description": "Permite visualizar las asignaciones."
+    },
+    "createAssignments": {
+        "title": "Crear asignaciones",
+        "description": "Permite crear asignaciones."
+    },
+    "editAssignments": {
+        "title": "Editar asignaciones",
+        "description": "Permite editar asignaciones."
+    },
+    "deleteAssignments": {
+        "title": "Eliminar asignaciones",
+        "description": "Permite eliminar asignaciones."
+    },
+    "viewOwnAssignments": {
+        "title": "Ver asignaciones propias",
+        "description": "Permite visualizar las asignaciones propias"
+    },
+    "viewWorkPermits": {
+        "title": "Ver permisos de trabajo",
+        "description": "Permite visualizar los permisos de trabajo."
+    },
+    "createWorkPermits": {
+        "title": "Crear permisos de trabajo",
+        "description": "Permite crear permisos de trabajo."
+    },
+    "editWorkPermits": {
+        "title": "Editar permisos de trabajo",
+        "description": "Permite editar permisos de trabajo."
+    },
+    "deleteWorkPermits": {
+        "title": "Eliminar permisos de trabajo",
+        "description": "Permite eliminar permisos de trabajo."
+    },
+    "viewOwnWorkPermits": {
+        "title": "Ver permisos de trabajo propios",
+        "description": "Permite visualizar los permisos de trabajo propios"
+    },
+    "viewWorkPermitTypes": {
+        "title": "Ver tipos de permisos de trabajo",
+        "description": "Permite visualizar los tipos de permisos de trabajo."
+    },
+    "createWorkPermitTypes": {
+        "title": "Crear tipos de permisos de trabajo",
+        "description": "Permite crear tipos de permisos de trabajo."
+    },
+    "editWorkPermitTypes": {
+        "title": "Editar tipos de permisos de trabajo",
+        "description": "Permite editar tipos de permisos de trabajo."
+    },
+    "deleteWorkPermitTypes": {
+        "title": "Eliminar tipos de permisos de trabajo",
+        "description": "Permite eliminar tipos de permisos de trabajo."
+    },
+    "viewWorkPermitRequests": {
+        "title": "Ver solicitudes de permisos",
+        "description": "Permite visualizar las solicitudes de permisos de trabajo."
+    },
+    "createWorkPermitRequests": {
+        "title": "Crear solicitudes de permisos",
+        "description": "Permite crear solicitudes de permisos de trabajo."
+    },
+    "editWorkPermitRequests": {
+        "title": "Editar solicitudes de permisos",
+        "description": "Permite editar solicitudes de permisos de trabajo."
+    },
+    "deleteWorkPermitRequests": {
+        "title": "Eliminar solicitudes de permisos",
+        "description": "Permite eliminar solicitudes de permisos de trabajo."
+    },
+    "viewOwnWorkPermitRequests": {
+        "title": "Ver solicitudes de permisos propias",
+        "description": "Permite visualizar las solicitudes de permisos de trabajo propias"
+    },
+    "askWorkPermitRequests": {
+        "title": "Solicitar permisos",
+        "description": "Permite solicitar permisos de trabajo."
+    },
+    "cancelOwnWorkPermitRequests": {
+        "title": "Cancelar solicitudes propias",
+        "description": "Permite cancelar las solicitudes de permisos de trabajo propias."
+    },
+    "approveManagerWorkPermitRequests": {
+        "title": "Aprobar solicitudes (manager)",
+        "description": "Permite aprobar solicitudes de permisos de trabajo a nivel manager"
+    },
+    "approveHrWorkPermitRequests": {
+        "title": "Aprobar solicitudes (RRHH)",
+        "description": "Permite aprobar solicitudes de permisos de trabajo a nivel hr"
+    },
+    "approveManagementWorkPermitRequests": {
+        "title": "Aprobar solicitudes (dirección)",
+        "description": "Permite aprobar solicitudes de permisos de trabajo a nivel dirección / gerencia"
+    },
+    "rejectWorkPermitRequests": {
+        "title": "Rechazar solicitudes",
+        "description": "Permite rechazar solicitudes de permisos de trabajo."
+    },
+    "cancelWorkPermitRequests": {
+        "title": "Cancelar solicitudes",
+        "description": "Permite cancelar solicitudes de permisos de trabajo."
+    },
+    "viewWorkPermitRequestTypes": {
+        "title": "Ver tipos de solicitudes",
+        "description": "Permite visualizar los tipos de solicitudes de permisos de trabajo."
+    },
+    "createWorkPermitRequestTypes": {
+        "title": "Crear tipos de solicitudes",
+        "description": "Permite crear tipos de solicitudes de permisos de trabajo."
+    },
+    "editWorkPermitRequestTypes": {
+        "title": "Editar tipos de solicitudes",
+        "description": "Permite editar tipos de solicitudes de permisos de trabajo."
+    },
+    "deleteWorkPermitRequestTypes": {
+        "title": "Eliminar tipos de solicitudes",
+        "description": "Permite eliminar tipos de solicitudes de permisos de trabajo."
+    },
+    "viewEvents": {
+        "title": "Ver eventos",
+        "description": "Permite visualizar los eventos."
+    },
+    "createEvents": {
+        "title": "Crear eventos",
+        "description": "Permite crear eventos."
+    },
+    "editEvents": {
+        "title": "Editar eventos",
+        "description": "Permite editar eventos."
+    },
+    "deleteEvents": {
+        "title": "Eliminar eventos",
+        "description": "Permite eliminar eventos."
+    },
+    "viewOwnEvents": {
+        "title": "Ver eventos propios",
+        "description": "Permite visualizar los eventos propios"
+    },
+    "viewEventTypes": {
+        "title": "Ver tipos de eventos",
+        "description": "Permite visualizar los tipos de eventos."
+    },
+    "createEventTypes": {
+        "title": "Crear tipos de eventos",
+        "description": "Permite crear tipos de eventos."
+    },
+    "editEventTypes": {
+        "title": "Editar tipos de eventos",
+        "description": "Permite editar tipos de eventos."
+    },
+    "deleteEventTypes": {
+        "title": "Eliminar tipos de eventos",
+        "description": "Permite eliminar tipos de eventos."
+    },
+    "usersInEvent": {
+        "title": "Ver usuarios en eventos",
+        "description": "Permite ver los usuarios en el evento."
+    },
+    "addUsersToEvent": {
+        "title": "Añadir usuarios a eventos",
+        "description": "Permite añadir usuarios al evento."
+    },
+    "removeUsersFromEvent": {
+        "title": "Eliminar usuarios de eventos",
+        "description": "Permite eliminar usuarios del evento."
+    },
+    "viewNotifications": {
+        "title": "Ver notificaciones",
+        "description": "Permite visualizar las notificaciones."
+    },
+    "createNotifications": {
+        "title": "Crear notificaciones",
+        "description": "Permite crear notificaciones."
+    },
+    "editNotifications": {
+        "title": "Editar notificaciones",
+        "description": "Permite editar notificaciones."
+    },
+    "deleteNotifications": {
+        "title": "Eliminar notificaciones",
+        "description": "Permite eliminar notificaciones."
+    },
+    "viewOwnNotifications": {
+        "title": "Ver notificaciones propias",
+        "description": "Permite visualizar las notificaciones propias"
+    },
+    "markNotificationsAsRead": {
+        "title": "Marcar notificaciones como leídas",
+        "description": "Permite marcar las notificaciones como leídas."
+    },
+    "markNotificationsAsUnread": {
+        "title": "Marcar notificaciones como no leídas",
+        "description": "Permite marcar las notificaciones como no leídas."
+    },
+    "deleteOwnNotifications": {
+        "title": "Eliminar notificaciones propias",
+        "description": "Permite eliminar las notificaciones propias."
+    },
+    "viewNotificationTypes": {
+        "title": "Ver tipos de notificaciones",
+        "description": "Permite visualizar los tipos de notificaciones."
+    },
+    "createNotificationTypes": {
+        "title": "Crear tipos de notificaciones",
+        "description": "Permite crear tipos de notificaciones."
+    },
+    "editNotificationTypes": {
+        "title": "Editar tipos de notificaciones",
+        "description": "Permite editar tipos de notificaciones."
+    },
+    "deleteNotificationTypes": {
+        "title": "Eliminar tipos de notificaciones",
+        "description": "Permite eliminar tipos de notificaciones."
+    },
+    "viewSchedule": {
+        "title": "Ver horarios",
+        "description": "Permite visualizar los horarios."
+    },
+    "createSchedule": {
+        "title": "Crear horarios",
+        "description": "Permite crear horarios."
+    },
+    "editSchedule": {
+        "title": "Editar horarios",
+        "description": "Permite editar horarios."
+    },
+    "deleteSchedule": {
+        "title": "Eliminar horarios",
+        "description": "Permite eliminar horarios."
+    },
+    "viewOwnSchedule": {
+        "title": "Ver horarios propios",
+        "description": "Permite visualizar los horarios propios"
+    },
+    "partialEditOwnSchedule": {
+        "title": "Editar parcialmente horarios propios",
+        "description": "Permite editar parcialmente los horarios propios."
+    },
+    "viewScheduleStatus": {
+        "title": "Ver estados de horarios",
+        "description": "Permite visualizar los estados de los horarios."
+    },
+    "createScheduleStatus": {
+        "title": "Crear estados de horarios",
+        "description": "Permite crear estados de los horarios."
+    },
+    "editScheduleStatus": {
+        "title": "Editar estados de horarios",
+        "description": "Permite editar estados de los horarios."
+    },
+    "deleteScheduleStatus": {
+        "title": "Eliminar estados de horarios",
+        "description": "Permite eliminar estados de los horarios."
+    },
+    "viewAbsencesNotes": {
+        "title": "Ver justificantes",
+        "description": "Permite visualizar los justificantes."
+    },
+    "createAbsencesNotes": {
+        "title": "Crear justificantes",
+        "description": "Permite crear justificantes."
+    },
+    "editAbsencesNotes": {
+        "title": "Editar justificantes",
+        "description": "Permite editar justificantes."
+    },
+    "deleteAbsencesNotes": {
+        "title": "Eliminar justificantes",
+        "description": "Permite eliminar justificantes."
+    },
+    "viewOwnAbsencesNotes": {
+        "title": "Ver justificantes propios",
+        "description": "Permite visualizar los justificantes propios"
+    },
+    "viewAbsencesNotesTypes": {
+        "title": "Ver tipos de justificantes",
+        "description": "Permite visualizar los tipos de justificantes."
+    },
+    "createAbsencesNotesTypes": {
+        "title": "Crear tipos de justificantes",
+        "description": "Permite crear tipos de justificantes."
+    },
+    "editAbsencesNotesTypes": {
+        "title": "Editar tipos de justificantes",
+        "description": "Permite editar tipos de justificantes."
+    },
+    "deleteAbsencesNotesTypes": {
+        "title": "Eliminar tipos de justificantes",
+        "description": "Permite eliminar tipos de justificantes."
+    },
+    "addAbsenceNoteToOwnSchedule": {
+        "title": "Añadir justificante a horario propio",
+        "description": "Permite añadir justificante a los horarios propios."
+    },
+    "viewShifts": {
+        "title": "Ver turnos",
+        "description": "Permite visualizar los turnos."
+    },
+    "createShifts": {
+        "title": "Crear turnos",
+        "description": "Permite crear turnos."
+    },
+    "editShifts": {
+        "title": "Editar turnos",
+        "description": "Permite editar turnos."
+    },
+    "deleteShifts": {
+        "title": "Eliminar turnos",
+        "description": "Permite eliminar turnos."
+    },
+    "viewWorkDays": {
+        "title": "Ver jornadas laborales",
+        "description": "Permite visualizar las jornadas laborales."
+    },
+    "createWorkDays": {
+        "title": "Crear jornadas laborales",
+        "description": "Permite crear jornadas laborales."
+    },
+    "editWorkDays": {
+        "title": "Editar jornadas laborales",
+        "description": "Permite editar jornadas laborales."
+    },
+    "deleteWorkDays": {
+        "title": "Eliminar jornadas laborales",
+        "description": "Permite eliminar jornadas laborales."
+    },
+    "viewMyWorkDays": {
+        "title": "Ver mis jornadas laborales",
+        "description": "Permite visualizar las jornadas laborales propias."
+    }
+}

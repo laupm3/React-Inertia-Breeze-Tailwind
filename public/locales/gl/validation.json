@@ -1,0 +1,18 @@
+{
+    "email": {
+        "title": "Correo Electrónico",
+        "placeholder": "Escribe o teu correo electrónico",
+        "required": "O correo electrónico é obrigatorio",
+        "min": "O correo electrónico debe ter polo menos 6 caracteres",
+        "max": "O correo electrónico non debe ter máis de 50 caracteres",
+        "invalid": "O correo electrónico debe ser válido"
+    },
+    "password": {
+        "title": "Contrasinal",
+        "placeholder": "Escribe o teu contrasinal",
+        "required": "O contrasinal é obrigatorio",
+        "min": "O contrasinal debe ter polo menos 8 caracteres",
+        "max": "O contrasinal non debe ter máis de 50 caracteres",
+        "invalid": "O contrasinal debe conter polo menos unha letra e un número"
+    }
+}

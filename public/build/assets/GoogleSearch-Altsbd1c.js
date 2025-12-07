@@ -1,0 +1,1 @@
+import{j as e}from"./app-fwyInB3c.js";import{A as i,a as n,M as c}from"./Map-D73hm0ip.js";function x({onSelect:r,showMap:s=!0,...o}){const a=t=>{r&&r(t)};return e.jsxs(i,{children:[e.jsx(n,{onPlaceSelect:a,...o}),e.jsx("div",{className:s?"":"hidden",children:e.jsx(c,{})})]})}export{x as G};

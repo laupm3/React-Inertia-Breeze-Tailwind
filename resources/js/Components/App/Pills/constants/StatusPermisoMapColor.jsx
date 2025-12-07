@@ -1,0 +1,35 @@
+const STATUS_PERMISO_COLOR_MAP = {
+    
+    'Pendiente': {
+        point: 'bg-grey-500',
+        bg: 'bg-grey-500/30',
+        text: 'text-grey-500',
+        border: 'border-grey-500',
+    },
+    'Aprobado': {
+        point: 'bg-green-500',
+        bg: 'bg-green-500/30',
+        text: 'text-green-500',
+        border: 'border-green-500',
+    },
+    'En revisión': {
+        point: 'bg-orange-500',
+        bg: 'bg-orange-500/30',
+        text: 'text-orange-500',
+        border: 'border-orange-500',
+    },
+    'Denegado': {
+        point: 'bg-red-500',
+        bg: 'bg-red-500/30',
+        text: 'text-red-500',
+        border: 'border-red-500',
+    },
+    'Solicitado': {
+        point: 'bg-blue-500',
+        bg: 'bg-blue-500/30',
+        text: 'text-blue-500',
+        border: 'border-blue-500',
+    }
+}
+
+export default STATUS_PERMISO_COLOR_MAP

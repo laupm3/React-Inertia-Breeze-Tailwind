@@ -1,0 +1,1 @@
+import{j as e}from"./app-fwyInB3c.js";import{I as i}from"./LucideIcon-CEqEhMjI.js";function a({modalidad:r,className:o}){const n={Presencial:e.jsx(i,{name:"Building",size:16,className:o}),Remoto:e.jsx(i,{name:"Laptop",size:16,className:o}),Híbrido:e.jsx(i,{name:"HousePlug",size:16,className:o})};return n[r]||n.Presencial}export{a as G};

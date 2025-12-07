@@ -1,0 +1,10 @@
+{
+    "Vacation.nonDefined": "No definit",
+    "Vacation.accepted": "Acceptat",
+    "Vacation.delayed": "En espera",
+    "Vacation.rejected": "Rebutjat",
+    "Vacation.solicitationError": "Error en la sol·licitud",
+    "Vacation.requestVacation": "Sol·licitar vacances",
+    "Vacation.requestPermissions": "Sol·licitar permisos",
+    "Vacation.daysRemaining": "Dies restants"
+}

@@ -1,0 +1,37 @@
+{
+    "VacationRequest": {
+        "startDate": "Hasiera data",
+        "endDate": "Amaiera data",
+        "partialDay": "Egun partziala",
+        "confirmRequest": "Eskaera berretsi",
+        "requestedVacations": "Opor eskaerak",
+        "aprovedByBoss": "Liderrak onartua",
+        "aprovedByHR": "Giza Baliabideek onartua",
+        "aprovedEnjoys": "Onartua, gozatu zure oporrak!",
+        "viewHistory": "Opor historiala ikusi",
+        "pendingApproval": "Onarpenaren zain",
+        "vacationsNonSolicited": "Eskatu gabeko oporrak",
+        "remember": "Gogoratu",
+        "warning": "Permisioaren tramitazioa ziurtatzeko, 15 eguneko aurrekontua eskatzen da. Aurrekontu gabeko eskaerak balorazioaren menpe geratuko dira."
+    },
+
+    "Vacation": {
+        "nonDefined": "Zehaztugabea",
+        "accepted": "Onartua",
+        "delayed": "Itxaronaldian",
+        "rejected": "Baztertua",
+        "solicitationError": "Eskabide errorea",
+        "requestVacation": "Oporrak eskatu",
+        "requestPermissions": "Baimenak eskatu",
+        "daysRemaining": "Gainerako egunak"
+    },
+    "Leaves": {
+        "information": "Informazioa",
+        "typeOfLeave": "Utzi mota",
+        "placeholder": "zuri utziaren arrazoiaren deskribapena idatzi",
+        "note": "Oharra",
+        "confirmRequest": "Utzi eskatu",
+        "emptyHistory": "Ez dago utziaren historiarik"
+    }
+}
+

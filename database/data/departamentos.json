@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Administración",
+        "descripcion": "Gestión de la administración de la empresa"
+    },
+    {
+        "nombre": "Comercial",
+        "descripcion": "Gestión de la parte comercial de la empresa"
+    },
+    {
+        "nombre": "Recursos Humanos",
+        "descripcion": "Gestión del personal y recursos humanos"
+    },
+    {
+        "nombre": "Finanzas",
+        "descripcion": "Gestión de las finanzas y contabilidad"
+    },
+    {
+        "nombre": "Marketing",
+        "descripcion": "Gestión de la promoción y publicidad"
+    },
+    {
+        "nombre": "Ventas",
+        "descripcion": "Gestión de las ventas y relaciones con clientes"
+    },
+    {
+        "nombre": "IT",
+        "descripcion": "Gestión de la tecnología y sistemas de información"
+    },
+    {
+        "nombre": "Producción",
+        "descripcion": "Gestión de la producción y operaciones"
+    },
+    {
+        "nombre": "Logística",
+        "descripcion": "Gestión de la cadena de suministro y distribución"
+    },
+    {
+        "nombre": "Investigación y Desarrollo",
+        "descripcion": "Gestión de la innovación y desarrollo de productos"
+    },
+    {
+        "nombre": "Calidad",
+        "descripcion": "Gestión del control de calidad y mejora continua"
+    },
+    {
+        "nombre": "Compras",
+        "descripcion": "Gestión de las adquisiciones y proveedores"
+    },
+    {
+        "nombre": "Servicio al Cliente",
+        "descripcion": "Gestión de la atención y soporte al cliente"
+    },
+    {
+        "nombre": "Legal",
+        "descripcion": "Gestión de los asuntos legales y cumplimiento"
+    },
+    {
+        "nombre": "Relaciones Públicas",
+        "descripcion": "Gestión de la comunicación y relaciones públicas"
+    }
+]

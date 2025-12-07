@@ -1,0 +1,1 @@
+@keyframes shimmer{0%{background-position:-468px 0}to{background-position:468px 0}}.skeleton-shimmer{background:linear-gradient(to right,#fff0,#fff3,#ffffff80 40%,#fff0);background-size:468px 100%;animation:shimmer 1.5s infinite linear}

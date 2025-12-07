@@ -1,0 +1,1 @@
+import{j as e}from"./app-fwyInB3c.js";import{S as s}from"./skeleton-DSiYFg9q.js";import"./utils-CytzSlOG.js";function r(){return e.jsxs("section",{className:"flex flex-col gap-11",children:[e.jsx("div",{className:"flex w-full items-center justify-center",children:e.jsx(s,{className:"h-48 w-full"})}),e.jsx(s,{className:"h-4 w-[350px]"})]})}export{r as default};

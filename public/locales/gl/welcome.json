@@ -1,0 +1,21 @@
+{
+    "hello": "Todo o que necesitas nun só lugar",
+    "description": "Aplicación feita por e para o usuario, coas mellores ferramentas para o teu día a día",
+    "message.recoverPassword": "Sen problema. Escribe o teu correo electrónico e enviarémosche ao teu correo unha ligazón para restablecer o teu contrasinal, que che permitirá escoller un novo.",
+    "login": {
+        "email": "Inicia sesión con correo electrónico",
+        "google": "Inicia sesión con Google",
+        "submit": "Inicia sesión",
+        "admin": "Administrador"
+    },
+    "policies": "Ao iniciar sesión, aceptas os Termos de servizo e a Política de privacidade, incluída a política de Uso de Cookies.",
+    "password.forgot": "Esqueciches o teu contrasinal?",
+    "incidencias": {
+        "title": "Algunha cuestión?",
+        "description": "Escribe o teu nome, apelidos, correo electrónico e a túa cuestión",
+        "nombre": "Nome",
+        "apellido": "Apelidos",
+        "razon": "Escriu aquí a túa cuestión...",
+        "enviar": "Enviar"
+    }
+}

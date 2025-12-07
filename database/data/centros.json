@@ -1,0 +1,302 @@
+[
+    {
+        "nombre_empresa": "Empresa 1",
+        "nombre": "Centro 1",
+        "email": "centro1@example.com",
+        "telefono": "123456789"
+    },
+    {
+        "nombre_empresa": "Empresa 2",
+        "nombre": "Centro 2",
+        "email": "centro2@example.com",
+        "telefono": "987654321"
+    },
+    {
+        "nombre_empresa": "Empresa 3",
+        "nombre": "Centro 3",
+        "email": "centro3@example.com",
+        "telefono": "111222333"
+    },
+    {
+        "nombre_empresa": "Empresa 4",
+        "nombre": "Centro 4",
+        "email": "centro4@example.com",
+        "telefono": "444555666"
+    },
+    {
+        "nombre_empresa": "Empresa 5",
+        "nombre": "Centro 5",
+        "email": "centro5@example.com",
+        "telefono": "777888999"
+    },
+    {
+        "nombre_empresa": "Empresa 6",
+        "nombre": "Centro 6",
+        "email": "centro6@example.com",
+        "telefono": "222333444"
+    },
+    {
+        "nombre_empresa": "Empresa 7",
+        "nombre": "Centro 7",
+        "email": "centro7@example.com",
+        "telefono": "555666777"
+    },
+    {
+        "nombre_empresa": "Empresa 8",
+        "nombre": "Centro 8",
+        "email": "centro8@example.com",
+        "telefono": "888999000"
+    },
+    {
+        "nombre_empresa": "Empresa 9",
+        "nombre": "Centro 9",
+        "email": "centro9@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 10",
+        "nombre": "Centro 10",
+        "email": "centro10@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 11",
+        "nombre": "Centro 11",
+        "email": "centro11@example.com",
+        "telefono": "999000111"
+    },
+    {
+        "nombre_empresa": "Empresa 12",
+        "nombre": "Centro 12",
+        "email": "centro12@example.com",
+        "telefono": "000111222"
+    },
+    {
+        "nombre_empresa": "Empresa 13",
+        "nombre": "Centro 13",
+        "email": "centro13@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 14",
+        "nombre": "Centro 14",
+        "email": "centro14@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 15",
+        "nombre": "Centro 15",
+        "email": "centro15@example.com",
+        "telefono": "999000111"
+    },
+    {
+        "nombre_empresa": "Empresa 16",
+        "nombre": "Centro 16",
+        "email": "centro16@example.com",
+        "telefono": "000111222"
+    },
+    {
+        "nombre_empresa": "Empresa 17",
+        "nombre": "Centro 17",
+        "email": "centro17@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 18",
+        "nombre": "Centro 18",
+        "email": "centro18@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 19",
+        "nombre": "Centro 19",
+        "email": "centro19@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 20",
+        "nombre": "Centro 20",
+        "email": "centro20@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 21",
+        "nombre": "Centro 21",
+        "email": "centro21@example.com",
+        "telefono": "999000111"
+    },
+    {
+        "nombre_empresa": "Empresa 22",
+        "nombre": "Centro 22",
+        "email": "centro22@example.com",
+        "telefono": "000111222"
+    },
+    {
+        "nombre_empresa": "Empresa 23",
+        "nombre": "Centro 23",
+        "email": "centro23@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 24",
+        "nombre": "Centro 24",
+        "email": "centro24@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 25",
+        "nombre": "Centro 25",
+        "email": "centro25@example.com",
+        "telefono": "999000111"
+    },
+    {
+        "nombre_empresa": "Empresa 26",
+        "nombre": "Centro 26",
+        "email": "centro26@example.com",
+        "telefono": "000111222"
+    },
+    {
+        "nombre_empresa": "Empresa 27",
+        "nombre": "Centro 27",
+        "email": "centro27@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 28",
+        "nombre": "Centro 28",
+        "email": "centro28@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 29",
+        "nombre": "Centro 29",
+        "email": "centro29@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 29",
+        "nombre": "Centro 29",
+        "email": "centro29@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 30",
+        "nombre": "Centro 30",
+        "email": "centro30@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 31",
+        "nombre": "Centro 31",
+        "email": "centro31@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 32",
+        "nombre": "Centro 32",
+        "email": "centro32@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 33",
+        "nombre": "Centro 33",
+        "email": "centro33@example.com",
+        "telefono": "333444555"
+    },
+    {
+        "nombre_empresa": "Empresa 34",
+        "nombre": "Centro 34",
+        "email": "centro34@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 35",
+        "nombre": "Centro 35",
+        "email": "centro35@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 36",
+        "nombre": "Centro 36",
+        "email": "centro36@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 37",
+        "nombre": "Centro 37",
+        "email": "centro37@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 38",
+        "nombre": "Centro 38",
+        "email": "centro38@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 39",
+        "nombre": "Centro 39",
+        "email": "centro39@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 40",
+        "nombre": "Centro 40",
+        "email": "centro40@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 41",
+        "nombre": "Centro 41",
+        "email": "centro41@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 42",
+        "nombre": "Centro 42",
+        "email": "centro42@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 43",
+        "nombre": "Centro 43",
+        "email": "centro43@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 44",
+        "nombre": "Centro 44",
+        "email": "centro44@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 45",
+        "nombre": "Centro 45",
+        "email": "centro45@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 46",
+        "nombre": "Centro 46",
+        "email": "centro46@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 47",
+        "nombre": "Centro 47",
+        "email": "centro47@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 48",
+        "nombre": "Centro 48",
+        "email": "centro48@example.com",
+        "telefono": "666777888"
+    },
+    {
+        "nombre_empresa": "Empresa 49",
+        "nombre": "Centro 49",
+        "email": "centro49@example.com",
+        "telefono": "666777888"
+    }
+]

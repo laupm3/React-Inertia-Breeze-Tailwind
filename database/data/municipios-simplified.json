@@ -1,0 +1,428 @@
+[
+    {
+        "pais_id": 1,
+        "nombre": "Andalucía",
+        "id": 1,
+        "provincias": [
+            {
+                "comunidad_id": 1,
+                "id": 4,
+                "nombre": "Almería",
+                "municipios": [
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Abla"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Abrucena"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Adra"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Albanchez"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alboloduy"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Albox"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alcolea"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alcóntar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alcudia de Monteagud"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alhabia"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alhama de Almería"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alicún"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Almería"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Almócita"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Alsodux"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Antas"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Arboleas"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Armuña de Almanzora"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Bacares"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Balanegra"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Bayárcal"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Bayarque"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Bédar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Beires"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Benahadux"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Benitagla"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Benizalón"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Bentarique"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Berja"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Canjáyar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Cantoria"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Carboneras"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Castro de Filabres"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Chercos"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Chirivel"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Cóbdar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Cuevas del Almanzora"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Dalías"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Ejido, El"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Enix"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Felix"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Fines"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Fiñana"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Fondón"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Gádor"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Gallardos, Los"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Garrucha"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Gérgal"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Huécija"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Huércal de Almería"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Huércal-Overa"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Íllar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Instinción"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Laroya"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Láujar de Andarax"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Líjar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Lubrín"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Lucainena de las Torres"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Lúcar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Macael"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "María"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Mojácar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Mojonera, La"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Nacimiento"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Níjar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Ohanes"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Olula de Castro"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Olula del Río"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Oria"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Padules"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Partaloa"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Paterna del Río"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Pechina"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Pulpí"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Purchena"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Rágol"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Rioja"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Roquetas de Mar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Santa Cruz de Marchena"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Santa Fe de Mondújar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Senés"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Serón"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Sierro"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Somontín"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Sorbas"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Suflí"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Tabernas"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Taberno"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Tahal"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Terque"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Tíjola"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Tres Villas, Las"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Turre"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Turrillas"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Uleila del Campo"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Urrácal"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Velefique"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Vélez-Blanco"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Vélez-Rubio"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Vera"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Viator"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Vícar"
+                    },
+                    {
+                        "provincia_id": 4,
+                        "nombre": "Zurgena"
+                    }
+                ]
+            }
+        ]
+    }
+]

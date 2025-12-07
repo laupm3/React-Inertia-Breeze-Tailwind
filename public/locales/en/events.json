@@ -1,0 +1,28 @@
+{
+  "rrhh": "Human Resources",
+  "department": "Department",
+  "group": "Group",
+  "enterprise": "Company",
+  "private": "Private",
+  "pleaseSelectEventType": "Please select an event type",
+  "noUpcomingEvents": "No upcoming events",
+  "pastEvents": "Past events",
+  "newEvent": "New event",
+  "title": "Title",
+  "description": "Description",
+  "share": "Share",
+  "searchUsers": "Search users",
+  "selected": "Selected",
+  "createEvent": "Create event",
+  "searchByTitle": "Search by title",
+  "notifications": "Notifications",
+  "seeAll": "See all",
+  "nonEspecificJob": "Non specific job",
+  "seeOnCalendar": "See on calendar",
+  "seeNotification": "See notification",
+  "notificationBlock": "Notifications are blocked. Please enable them in your browser settings.",
+  "notificationDenied": "Permissions to show notifications have not been granted.",
+  "notificationNotSupported": "Your browser does not support system notifications.",
+  "yooptaAclaratiton": "Add different elements with the '/' key"
+
+}

@@ -1,0 +1,21 @@
+{
+    "hello": "Zure behar guztiak toki bakarrean",
+    "description": "Erabiltzailearen eskutik eta erabiltzailearentzat egindako aplikazioa, zure egunerokorako tresna onenekin",
+    "message.recoverPassword": "Arazorik ez. Idatzi zure helbide elektronikoa eta zure pasahitza berrezartzeko esteka bat bidaliko dizugu, berria aukeratzeko aukera izango duzuna.",
+    "login": {
+        "email": "Hasi saioa emailarekin",
+        "google": "Hasi saioa Google-rekin",
+        "submit": "Hasi saioa",
+        "admin": "Administratzailea"
+    },
+    "policies": "Saioa hastean, Zerbitzuaren Baldintzak eta Pribatutasun Politika, baita Cookieen Erabilera Politika ere, onartzen dituzu.",
+    "password.forgot": "Pasahitza ahaztu duzu?",
+    "incidencias": {
+        "title": "Zerbitzuaren zerbitzua?",
+        "description": "Izena, abizena, posta elektronikoa eta zure galdera",
+        "nombre": "Izena",
+        "apellido": "Abizena",
+        "razon": "Idatzi hemen zure galdera...",
+        "enviar": "Bidali"
+    }
+}

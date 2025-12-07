@@ -1,0 +1,21 @@
+{
+    "events": {
+        "createEvent": "Gertaera sortu",
+        "department": "Saila",
+        "description": "Deskribapena",
+        "enterprise": "Enpresa",
+        "group": "Taldea",
+        "hour": "Ordua",
+        "newEvent": "Gertaera berria",
+        "noUpcomingEvents": "Ez dago hurrengo gertaerarik",
+        "pastEvents": "Iraganeko gertaerak",
+        "pleaseSelectEventType": "Mesedez, aukeratu gertaera mota bat",
+        "private": "Pribatua",
+        "rrhh": "Giza Baliabideak",
+        "searchUsers": "Erabiltzaileak bilatu",
+        "selected": "Hautatutakoak",
+        "share": "Partekatu",
+        "title": "Izenburua",
+        "upcomingEvents": "Hurrengo gertaerak"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "hello": "Everything you need in one place",
+    "description": "An application made by and for the user, with the best tools for your daily life",
+    "message.recoverPassword": "No problem. Enter your email address, and we will send you a link to reset your password so you can choose a new one.",
+    "login": {
+        "email": "Log in with email",
+        "google": "Log in with Google",
+        "submit": "Log in",
+        "admin": "Admin"
+    },
+    "policies": "By logging in, you agree to the Terms of Service and Privacy Policy, including the Cookie Usage Policy.",
+    "password.forgot": "Forgot your password?",
+    "incidencias": {
+        "title": "Any issues?",
+        "description": "Enter your name, last name, email address and your question",
+        "nombre": "Name",
+        "apellido": "Last name",
+        "razon": "Write your question here...",
+        "enviar": "Send"
+    }
+}

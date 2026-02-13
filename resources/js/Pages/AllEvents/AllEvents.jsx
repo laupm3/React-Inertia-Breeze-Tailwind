@@ -10,7 +10,7 @@ import AllEventsSkeleton from '@/Pages/AllEvents/Partials/AllEventsSkeleton';
 import useEvents from "@/hooks/useEvents";
 import useEventDescription from "@/hooks/useEventDescription";
 import { useDateRangeFilter } from "@/hooks/useDateRangeFilter";
-import { sortEvents, SORT_TYPES } from "@/utils/eventDateUtils";
+import { formatDateSpanish } from "@/Utils/eventDateUtils";
 
 import EventList from './Partials/EventList';
 import EventCalendar from './Partials/EventCalendar';

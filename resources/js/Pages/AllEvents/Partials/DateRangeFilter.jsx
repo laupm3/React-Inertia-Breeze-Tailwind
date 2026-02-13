@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { es } from "date-fns/locale";
 import { Calendar as CalendarIcon } from "lucide-react";
 import Icon from "@/imports/LucideIcon";
-import { formatDateYMD } from "@/utils/eventDateUtils";
+import { formatDateSpanish, isSameDay } from "@/Utils/eventDateUtils";
 import { Button } from "@/Components/ui/button";
 import {
   Select,
@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 // Constantes para los tipos de filtro
 const DATE_FILTER_TYPES = {
   BETWEEN: 'between',
-  AFTER: 'after', 
+  AFTER: 'after',
   BEFORE: 'before',
   EXACT: 'exact'
 };
@@ -46,7 +46,7 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
 
   const handleFromDateChange = (e) => {
     const fromDate = e.target.value ? new Date(e.target.value) : null;
-    
+
     if (filterType === DATE_FILTER_TYPES.EXACT || filterType === DATE_FILTER_TYPES.AFTER || filterType === DATE_FILTER_TYPES.BEFORE) {
       // Para fecha exacta, después de, o antes de, solo usar una fecha
       onDateRangeChange({
@@ -75,7 +75,7 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
 
   const handleFilterTypeChange = (newFilterType) => {
     setFilterType(newFilterType);
-    
+
     // Resetear las fechas al cambiar el tipo de filtro
     if (newFilterType === DATE_FILTER_TYPES.EXACT && dateRange?.from) {
       onDateRangeChange({
@@ -110,7 +110,7 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
 
   const formatDateRange = () => {
     if (!dateRange?.from) return "Sin filtro de fecha";
-    
+
     switch (dateRange.filterType || filterType) {
       case DATE_FILTER_TYPES.EXACT:
         return `Fecha exacta: ${format(dateRange.from, "PP", { locale: es })}`;
@@ -122,7 +122,8 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
       default:
         if (!dateRange.to) return `Desde: ${format(dateRange.from, "PP", { locale: es })}`;
         return `${format(dateRange.from, "PP", { locale: es })} - ${format(dateRange.to, "PP", { locale: es })}`;
-    }  };
+    }
+  };
 
   // Usar utilidad centralizada para formateo de fechas en inputs
 
@@ -139,14 +140,14 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
               variant="ghost"
               className={cn(
                 "flex w-full p-2 min-h-10 h-auto items-center justify-between rounded-full bg-custom-gray-light dark:bg-custom-blackSemi text-custom-blackLight dark:text-custom-white border-0 gap-1 text-left font-normal",
-                isFilterActive 
-                  ? "text-custom-orange dark:text-custom-orange" 
+                isFilterActive
+                  ? "text-custom-orange dark:text-custom-orange"
                   : "text-muted-foreground dark:text-custom-gray-default"
               )}
             >
               <div className="font-medium flex gap-2 items-center text-sm">
                 <div className="flex items-center justify-between">
-                  <CalendarIcon 
+                  <CalendarIcon
                     className="h-4 cursor-pointer text-muted-foreground hover:text-primary transition-colors"
                   />
                 </div>
@@ -154,8 +155,8 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
                   {formatDateRange()}
                 </span>
               </div>
-              <Icon 
-                name="ChevronDown" 
+              <Icon
+                name="ChevronDown"
                 className={cn(
                   "transition-colors h-4 w-4",
                   isFilterActive
@@ -170,7 +171,7 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
               <h4 className="font-medium text-sm dark:text-white">
                 Filtrar por rango de fechas
               </h4>
-              
+
               {/* Selector de tipo de filtro */}
               <div className="grid gap-2">
                 <label className="text-xs dark:text-gray-300">
@@ -189,19 +190,19 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
                   </SelectContent>
                 </Select>
               </div>
-              
+
               {/* Inputs de fecha */}
               <div className={`grid gap-4 ${shouldShowEndDate ? 'grid-cols-2' : 'grid-cols-1'}`}>
                 {shouldShowStartDate && (
                   <div className="grid gap-2">
                     <label className="text-xs dark:text-gray-300">
                       {filterType === DATE_FILTER_TYPES.EXACT ? 'Fecha exacta' :
-                       filterType === DATE_FILTER_TYPES.AFTER ? 'Después de' :
-                       filterType === DATE_FILTER_TYPES.BEFORE ? 'Antes de' : 'Fecha desde'}
+                        filterType === DATE_FILTER_TYPES.AFTER ? 'Después de' :
+                          filterType === DATE_FILTER_TYPES.BEFORE ? 'Antes de' : 'Fecha desde'}
                     </label>
                     <div className="flex items-center dark:bg-custom-blackSemi dark:hover:bg-custom-gray-sidebar dark:text-white bg-custom-gray-default rounded-full hover:bg-custom-gray-light focus:ring-0 focus:ring-offset-0">
-                      <Icon 
-                        name="Calendar" 
+                      <Icon
+                        name="Calendar"
                         className="text-custom-orange ml-4 h-4 w-4"
                       />
                       <input
@@ -213,15 +214,15 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
                     </div>
                   </div>
                 )}
-                
+
                 {shouldShowEndDate && (
                   <div className="grid gap-2">
                     <label className="text-xs dark:text-gray-300">
                       Fecha hasta
                     </label>
                     <div className="flex items-center dark:bg-custom-blackSemi dark:hover:bg-custom-gray-sidebar dark:text-white bg-custom-gray-default rounded-full hover:bg-custom-gray-light focus:ring-0 focus:ring-offset-0">
-                      <Icon 
-                        name="Calendar" 
+                      <Icon
+                        name="Calendar"
                         className="text-custom-orange ml-4 h-4 w-4"
                       />
                       <input
@@ -240,8 +241,8 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
                       Antes de
                     </label>
                     <div className="flex items-center dark:bg-custom-blackSemi dark:hover:bg-custom-gray-sidebar dark:text-white bg-custom-gray-default rounded-full hover:bg-custom-gray-light focus:ring-0 focus:ring-offset-0">
-                      <Icon 
-                        name="Calendar" 
+                      <Icon
+                        name="Calendar"
                         className="text-custom-orange ml-4 h-4 w-4"
                       />
                       <input
@@ -276,7 +277,7 @@ const DateRangeFilter = ({ onDateRangeChange, dateRange }) => {
             </div>
           </PopoverContent>
         </Popover>
-        
+
         {dateRange?.from && (
           <button
             onClick={clearFilter}

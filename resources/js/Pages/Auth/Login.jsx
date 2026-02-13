@@ -186,6 +186,19 @@ export default function Login({ status, canResetPassword }) {
                         {t("login", { ns: "glossary" })}
                     </Button>
                 </div>
+
+                {/* Demo Credentials Card */}
+                <div className="mt-6 p-4 rounded-2xl bg-custom-orange/10 border border-custom-orange/20">
+                    <p className="text-sm font-bold text-custom-orange mb-2 flex items-center gap-2">
+                        <Icon name="Info" size={16} />
+                        Acceso Demo (Solo Lectura)
+                    </p>
+                    <div className="space-y-1 text-xs text-custom-gray-dark dark:text-custom-gray-light">
+                        <p><span className="font-semibold">Email:</span> invitado@empresa.com</p>
+                        <p><span className="font-semibold">Password:</span> Invitado123!</p>
+                    </div>
+                </div>
+
                 <div className="ml-2 block ">
                     <label className="flex ">
                         <p className="text-xs mt-4 text-custom-gray-dark">

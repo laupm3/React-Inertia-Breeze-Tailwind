@@ -22,11 +22,17 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->web(append: [
             \App\Http\Middleware\HandleInertiaRequests::class,
             \Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets::class,
+            \App\Http\Middleware\RestrictDemoMode::class,
+        ]);
+
+        $middleware->api(append: [
+            \App\Http\Middleware\RestrictDemoMode::class,
         ]);
 
         $middleware->alias([
             'check.banned' => \App\Http\Middleware\CheckBannedUser::class,
             'optimize.export' => \App\Http\Middleware\Export\OptimizeExportQueries::class,
+            'restrict.demo' => \App\Http\Middleware\RestrictDemoMode::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

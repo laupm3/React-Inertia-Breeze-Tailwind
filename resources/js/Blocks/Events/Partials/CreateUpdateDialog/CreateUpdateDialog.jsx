@@ -11,7 +11,7 @@ import SwitcherEventType from "@/Blocks/Events/Partials/CreateUpdateDialog/Switc
 import UserAdvanceMultiselect from "@/Components/App/User/AdvanceMultiselect/AdvanceMultiselect";
 import Icon from "@/imports/LucideIcon";
 import { useState, useEffect, useRef } from "react";
-import { formatDateDMY } from "@/utils";
+import { formatDateDMY } from "@/Utils";
 import { usePage } from "@inertiajs/react";
 
 function CreateUpdateDialog({
@@ -24,7 +24,7 @@ function CreateUpdateDialog({
 }) {
     const { auth } = usePage().props;
     const currentUser = auth.user;
-    
+
     const [title, setTitle] = useState("");
     const [time, setTime] = useState("");
     const [selectedEventType, setSelectedEventType] = useState(null);
@@ -40,7 +40,7 @@ function CreateUpdateDialog({
         if (Array.isArray(data)) {
             return data.filter(user => user.id !== currentUser?.id);
         }
-        
+
         // Si data es un objeto con propiedad users
         if (data && data.users && Array.isArray(data.users)) {
             return {
@@ -48,7 +48,7 @@ function CreateUpdateDialog({
                 users: data.users.filter(user => user.id !== currentUser?.id)
             };
         }
-        
+
         return data;
     };
 

@@ -8,7 +8,7 @@ import Icon from "@/imports/LucideIcon";
 import { router } from '@inertiajs/react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/Components/ui/dropdown-menu";
 import { useState, useMemo, useEffect } from "react";
-import { formatDateDMY, formatDateSpanish } from "@/utils";
+import { formatDateDMY, formatDateSpanish } from "@/Utils";
 import { Viewer } from "@/Components/App/Notifications/Yoopta";
 import axios from "axios";
 import DecisionModal from "@/Components/App/Modals/DecisionModal";
@@ -23,8 +23,8 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
         const fetchCreador = async () => {
             if (eventData?.creador?.id) {
                 try {
-                    const response = await axios.get(route('api.v1.admin.users.show', { 
-                        user: eventData.creador.id 
+                    const response = await axios.get(route('api.v1.admin.users.show', {
+                        user: eventData.creador.id
                     }));
                     setCreador(response.data.user);
                 } catch (error) {
@@ -45,12 +45,12 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
     // Parse description JSON if it's a string
     const parsedDescription = useMemo(() => {
         if (!eventData?.descripcion) return null;
-        
+
         // If it's already an object, return it
         if (typeof eventData.descripcion === 'object') {
             return eventData.descripcion;
         }
-        
+
         // Try to parse it as JSON if it's a string
         try {
             return JSON.parse(eventData.descripcion);
@@ -81,7 +81,7 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
 
     const manageDelete = async () => {
         if (!eventData || !eventData.id) return;
-    
+
         try {
             setIsDeleting(true);
             router.delete(route('user.eventos.destroy', { evento: eventData.id }), {
@@ -106,8 +106,8 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
     }
 
     return (
-        <CustomDialog 
-            open={isOpen} 
+        <CustomDialog
+            open={isOpen}
             onOpenChange={onClose}
             title="Detalles del Evento"
             eventDate={eventData?.fecha_inicio ? formatDateDMY(eventData.fecha_inicio) : undefined}
@@ -130,7 +130,7 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
                                     {eventData?.nombre || eventData?.titulo}
                                 </h2>
                             </div>
-                            
+
                             {/* Tipo de evento pill */}
                             {eventData?.tipo_evento && (
                                 <div
@@ -164,7 +164,7 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
                                     {eventData?.hora_inicio}
                                 </span>
                             </div>
-                            
+
                             {/* Botones de acción */}
                             {eventData?.can_manage && (
                                 <div className="flex items-center hover:bg-custom-gray-default dark:hover:bg-custom-blackSemi rounded-full p-2 transition-colors">
@@ -176,7 +176,7 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
                                         </DropdownMenuTrigger>
                                         <DropdownMenuContent className="dark:bg-custom-blackSemi border border-gray-300 dark:border-gray-600">
                                             <DropdownMenuItem onSelect={handleEdit}>
-                                                <Icon name="SquarePen" className="w-4 h-4 mr-2" /> 
+                                                <Icon name="SquarePen" className="w-4 h-4 mr-2" />
                                                 Editar
                                             </DropdownMenuItem>
                                             <DropdownMenuItem
@@ -208,10 +208,10 @@ function ViewEventDialog({ isOpen, onClose, eventData, onEdit, onDelete }) {
                     </div>
 
                     {/* Content - Viewer */}
-                    <div className="flex-1 min-h-0 mb-4">   
+                    <div className="flex-1 min-h-0 mb-4">
                         <div className="h-full overflow-y-auto scrollbar-styled bg-custom-gray-default dark:bg-custom-blackSemi rounded-xl">
                             {parsedDescription && (
-                                <div 
+                                <div
                                     className="yoopta-viewer-compact p-4"
                                     style={{
                                         '--yoopta-block-margin': '0.25rem',

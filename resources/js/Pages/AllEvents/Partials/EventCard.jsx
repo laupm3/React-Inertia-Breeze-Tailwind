@@ -1,5 +1,5 @@
 import Icon from "@/imports/LucideIcon";
-import { formatDateDMY } from "@/utils";
+import { formatDateDMY } from "@/Utils";
 
 /**
  * Componente para mostrar una tarjeta de evento
@@ -15,25 +15,25 @@ const EventCard = ({ event, eventTypeColor, onClick, extractTextFromDescription,
   const pointColor = eventTypeColor?.point?.backgroundColor || '#cccccc';
   // Si el evento es pasado, hacer el color más opaco
   const finalPointColor = isPast ? `${pointColor}80` : pointColor; // Añadir transparencia si es pasado
-  
+
   // Clases CSS dinámicas basadas en si el evento es pasado
   const cardClasses = `
     flex items-center justify-between p-3 border rounded-lg transition-colors cursor-pointer mb-2
-    ${isPast 
-      ? 'opacity-60 bg-gray-50 dark:bg-gray-800/30 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700/40' 
+    ${isPast
+      ? 'opacity-60 bg-gray-50 dark:bg-gray-800/30 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700/40'
       : 'border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-custom-blackLight/50'
     }
   `.trim();
-  
+
   return (
     <div
       className={cardClasses}
       onClick={() => onClick(event)}
     >
       <div className="flex items-center space-x-3">        <div
-          className="w-3 h-3 rounded-full m-4"
-          style={{ backgroundColor: finalPointColor }}
-        /><div>
+        className="w-3 h-3 rounded-full m-4"
+        style={{ backgroundColor: finalPointColor }}
+      /><div>
           <h4 className={`font-medium ${isPast ? 'text-gray-500 dark:text-gray-400' : 'dark:text-white'}`}>
             {event.nombre}
           </h4>
